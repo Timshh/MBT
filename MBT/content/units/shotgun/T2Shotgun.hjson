@@ -1,0 +1,25 @@
+type: mech
+speed: 0.8
+health: 700
+armor: 3
+canBoost: true
+boostMultiplier: 1.8
+weapons: [
+    {
+        name: shotgun-T2-gun1
+        reload: 3
+        x: 4
+        y: 2
+        inaccuracy: 10
+        bullet: {
+            type: BasicBulletType
+            bulletSprite: bullet
+            lifetime: 80
+            speed: 3
+            damage: 7
+            frontColor: f8ad42
+            backColor: f68021
+        }
+    }
+]
+research: IronGroundFactory

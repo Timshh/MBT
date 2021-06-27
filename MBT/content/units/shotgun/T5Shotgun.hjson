@@ -1,0 +1,46 @@
+type: mech
+speed: 0.8
+health: 15000
+armor: 8
+canBoost: true
+boostMultiplier: 1.8
+weapons: [
+    {
+        name:shotgunT5gun1
+        reload: 1
+        x: 16
+        y: -10
+        inaccuracy: 10
+        xRand: 2
+        rotate: true
+        rotateSpeed:5
+        bullet: {
+            type: BasicBulletType
+            bulletSprite: bullet
+            lifetime: 80
+            speed: 5
+            damage: 5
+            frontColor: f8ad42
+            backColor: f68021
+        }
+    },
+    {
+        name: shotgun-T5-gun2
+        reload: 15
+        x: 10
+        y: 4
+        inaccuracy: 4
+        shots: 6
+        bullet: {
+            type: BasicBulletType
+            bulletSprite: bullet
+            lifetime: 80
+            speed: 3
+            damage: 30
+            frontColor: f8ad42
+            backColor: f68021
+            inaccuracy: 4
+        }
+    }
+]
+research: IronGroundFactory

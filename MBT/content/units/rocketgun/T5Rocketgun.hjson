@@ -1,0 +1,54 @@
+type: mech
+speed: 1
+health: 10500
+armor: 15
+canBoost: true
+boostMultiplier: 1.5
+weapons: [
+    {
+        name: rocketgun-T5-gun2
+        reload: 40
+        x: 5
+        y: -6
+        shootSound: missile
+        top: false
+        shots: 6
+        shotDelay: 2
+        inaccuracy: 30
+        xRand: 5
+        bullet: {
+            type: MissileBulletType
+            bulletSprite: missile
+            lifetime: 75
+            speed: 3
+            splashDamageRadius: 20
+            splashDamage: 25
+            homingPower: 2
+            homingRange: 100
+            speed: 2
+            drag:-0.01
+            damage: 50
+            trailEffect: incendTrail
+            trailParam: 1
+            trailColor: ffffffff
+        }
+    },
+    {
+        name: rocketgun-T5-gun1
+        reload: 40
+        x: 7
+        y: 5
+        shots: 6
+        top: true
+        inaccuracy: 30
+        bullet: {
+            type: BasicBulletType
+            bulletSprite: bullet
+            lifetime: 80
+            speed: 3
+            damage: 50
+            status:slow
+        }
+    }
+]
+research: IronGroundFactory

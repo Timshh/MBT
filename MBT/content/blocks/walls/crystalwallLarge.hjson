@@ -1,0 +1,14 @@
+type: Wall
+name:large crystal wall
+description: Wall of fused crystals who deflect projectiles.
+size: 2
+health: 9200
+chanceDeflect: 96
+flashHit: true
+requirements:[
+  crystal/24
+  graphite/50
+]
+insulated:true
+absorbLasers:true
+Category:walls

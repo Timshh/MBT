@@ -1,0 +1,27 @@
+type: ItemTurret
+name: CtT
+description: Heavy crystal turret.
+health: 750
+size: 3
+reloadTime: 60
+range: 375
+inaccuracy: 2
+rotatespeed: 40
+ammoTypes: {
+  crystal: {
+    type: BasicBulletType
+    lifetime: 200
+    speed: 5
+    status: shocked
+    damage: 500
+  }
+}
+ammoPerShot: 1
+maxAmmo: 30
+requirements:[
+  copper/70
+]
+targetAir: false
+targetGround: true
+category: turret
+research:swarmer

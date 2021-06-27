@@ -1,0 +1,14 @@
+type:CoreBlock
+name:Rocket core
+unitType : TSRocket
+health: 9000
+itemCapacity: 24000
+size: 6
+unitCapModifier: 36
+requirements:[
+titanium/5000 
+silicon/10000
+lead/10000, 
+graphite/7500
+]
+Category:units

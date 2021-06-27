@@ -1,0 +1,33 @@
+type: GenericCrafter
+name:Cryo packager
+description: make cryo package by cryofuild and metaglass.
+hasLiquids: true
+hasItems: true
+hasPower: true
+craftTime: 10
+size: 2
+health: 100
+requirements:[
+titanium/100 
+silicon/25
+lead/100, 
+graphite/50
+]
+itemCapacity: 20
+category: crafting
+outputItem:{
+  item: CryoPackage
+  amount: 1
+}
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      metaglass/1
+    ]
+  }
+  liquid: {
+		liquid: oil
+		amount: 0.2
+	}
+}

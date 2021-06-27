@@ -1,0 +1,41 @@
+type: legs
+speed: 1.1
+health: 875
+armor: 5
+legCount: 4
+drag:0.4
+legLength: 9
+legTrns: 0.8
+legMoveSpace: 1.9
+hovering: true
+allowLegStep: true
+visualElevation: 0.2
+groundLayer:74
+buildSpeed: 1.5
+weapons: [
+    {
+        name: rocket-T3-gun1
+        reload: 7
+        x: 5
+        y: -5
+        shadow:1
+        top: false
+        xrand: 1
+        inaccuracy: 6
+        top:false
+        bullet: {
+            type: MissileBulletType
+            bulletSprite: missile
+            lifetime: 80
+            speed: 4
+            splashDamageRadius: 10
+            splashDamage: 34
+            homingPower: 3
+            homingRange: 60
+            damage: 10
+            frontColor: f8ad42
+            backColor: f68021
+        }
+    }
+]
+research: IronGroundFactory

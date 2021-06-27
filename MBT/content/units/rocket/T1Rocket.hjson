@@ -1,0 +1,28 @@
+type: mech
+speed: 0.6
+health: 200
+armor: 0
+weapons: [
+    {
+        name: rocket-T1-gun1
+        reload: 9
+        x: 5
+        y: 0
+        top: false
+        bullet: {
+            type: MissileBulletType
+            bulletSprite: missile
+            lifetime: 80
+            speed: 3
+            splashDamageRadius: 20
+            splashDamage: 5
+            homingPower: 2
+            homingRange: 40
+            damage: 3
+            frontColor: f8ad42
+            backColor: f68021
+            inaccuracy: 3
+        }
+    }
+]
+research: IronGroundFactory

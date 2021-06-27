@@ -1,4 +1,3 @@
 # MBT
 Mindustry mod
-
-test 2
+beta
