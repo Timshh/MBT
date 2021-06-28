@@ -2,6 +2,7 @@ type: legs
 speed: 1.1
 health: 875
 armor: 5
+name:Night Fury
 legCount: 4
 drag:0.4
 legLength: 9

@@ -1,0 +1,31 @@
+
+type: Reconstructor
+health: 500
+size: 3
+name: steelReconstructorT2
+itemCapacity: 50
+constructTime: 90
+requirements: [
+    copper/1
+]
+upgrades: [
+    [RocketT1,RocketT2]
+]
+consumes: {
+    items: {
+        items: [
+            {
+                item: lead
+                amount: 50
+            },
+            {
+                item: metaglass
+                amount: 50
+            },
+            silicon/40
+        ]
+    }
+    power: 3
+}
+category: units
+research: tech-factory
