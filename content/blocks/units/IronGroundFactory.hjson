@@ -104,6 +104,14 @@ plans: [
             lead/10
         ]
         time: 400
+    },
+    {
+        unit:T3Rocketgun
+        requirements: [
+            silicon/30
+            lead/10
+        ]
+        time: 400
     }
 ]
 category: units
