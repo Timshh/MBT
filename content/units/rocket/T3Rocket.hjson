@@ -16,13 +16,14 @@ buildSpeed: 1.5
 weapons: [
     {
         name: rocket-T3-gun1
-        reload: 7
+        reload: 5
         x: 5
         y: -5
         shadow:1
         top: false
-        xrand: 1
+        xrand: 2
         inaccuracy: 6
+        shake: 2
         top:false
         bullet: {
             type: MissileBulletType
