@@ -7,7 +7,7 @@ boostMultiplier: 1.8
 weapons: [
     {
         name:shotgunT5gun1
-        reload: 2
+        reload: 3
         x: 16
         y: -10
         controllable: false
@@ -15,7 +15,7 @@ weapons: [
         shots: 5
         shotDelay: 2
         inaccuracy: 10
-        xRand: 4
+        xRand: 2
         rotate: true
         rotateSpeed:5
         bullet: {
