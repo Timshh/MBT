@@ -15,7 +15,7 @@ weapons: [
         shots: 5
         shotDelay: 2
         inaccuracy: 10
-        xRand: 2
+        xRand: 4
         rotate: true
         rotateSpeed:5
         bullet: {

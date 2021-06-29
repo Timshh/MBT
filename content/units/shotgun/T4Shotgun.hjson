@@ -12,7 +12,7 @@ weapons: [
         shotDelay: 2
         x: 8
         y: -2
-            
+        xRand: 2
         inaccuracy: 10
         bullet: {
             type: BasicBulletType
