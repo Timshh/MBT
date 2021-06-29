@@ -3,4 +3,4 @@ displayName: "Mbt" //what displays in the mod selection menu
 author: "Timshh"
 description: "A simple mod. Missle burst turret"
 version: "3.2"
-minGameVersion: "126"
+minGameVersion: "127.1"

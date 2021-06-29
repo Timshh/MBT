@@ -10,6 +10,10 @@ weapons: [
         reload: 1
         x: 16
         y: -10
+        controllable: false
+        autoTarget: true
+        shots: 5
+        shotDelay: 2
         inaccuracy: 10
         xRand: 2
         rotate: true
