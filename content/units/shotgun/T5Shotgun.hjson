@@ -7,7 +7,7 @@ boostMultiplier: 1.8
 weapons: [
     {
         name:shotgunT5gun1
-        reload: 1
+        reload: 2
         x: 16
         y: -10
         controllable: false
@@ -23,7 +23,7 @@ weapons: [
             bulletSprite: bullet
             lifetime: 80
             speed: 5
-            damage: 5
+            damage: 25
             frontColor: f8ad42
             backColor: f68021
         }
