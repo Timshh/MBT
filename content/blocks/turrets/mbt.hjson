@@ -15,7 +15,7 @@ ammoTypes: {
   thorium: {
     type: MissileBulletType
     bulletSprite: missile
-    lifetime: 100
+    lifetime: 60
     speed: 2
     drag:-0.02
     splashDamageRadius: 20
@@ -88,7 +88,9 @@ ammoTypes: {
 ammoPerShot: 5
 maxAmmo: 30
 requirements:[
-  copper/70
+  graphite/100
+  silcon/70
+  steel/45
 ]
 targetAir: true
 targetGround: true
