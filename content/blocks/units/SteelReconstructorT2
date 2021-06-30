@@ -3,7 +3,7 @@ type: Reconstructor
 health: 500
 size: 3
 name: steelReconstructorT2
-itemCapacity: 50
+itemCapacity: 80
 constructTime: 90
 requirements: [
     copper/1
@@ -17,11 +17,11 @@ consumes: {
         items: [
             {
                 item: graphite
-                amount: 50
+                amount: 40
             {,
             }
                 item: iron
-                amount: 50
+                amount: 30
             }
         ]
     }
