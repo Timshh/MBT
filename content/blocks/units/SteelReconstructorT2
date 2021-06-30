@@ -9,7 +9,8 @@ requirements: [
     copper/1
 ]
 upgrades: [
-    [RocketT1,RocketT2]
+    [T1Rocket,T2Rocket],
+    [T1Shotgun,T2Shotgun]
 ]
 consumes: {
     items: {

@@ -36,10 +36,10 @@ weapons: [
     {
         name: rocketgun-T5-gun1
         reload: 40
-        x: 7
+        x: 9
         y: 5
         shots: 6
-        top: true
+        top: false
         inaccuracy: 30
         bullet: {
             type: BasicBulletType

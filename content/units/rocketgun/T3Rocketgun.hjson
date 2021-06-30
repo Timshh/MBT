@@ -6,7 +6,7 @@ canBoost: true
 boostMultiplier: 1.5
 weapons: [
     {
-        name: rocketgun-T5-gun2
+        name: rocketgun-T3-gun2
         reload: 35
         x: 5
         y: -6
@@ -34,7 +34,7 @@ weapons: [
         }
     },
     {
-        name: rocketgun-T5-gun1
+        name: rocketgun-T3-gun1
         reload: 40
         x: 7
         y: 5

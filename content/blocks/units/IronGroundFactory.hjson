@@ -1,117 +1,29 @@
 type: UnitFactory
-health: 500
+health: 250
 size: 3
-itemCapacity: 30
+itemCapacity: 40
 requirements: [
     copper/100
     lead/250
-    silicon/200
+    silicon/70
     iron/140
 ]
 plans: [
     {
         unit:T1Rocket
         requirements: [
-            silicon/20
-            lead/20
+            iron/20
+            copper/20
         ]
-        time: 100
-    },
-    {
-        unit:T2Rocket
-        requirements: [
-            silicon/20
-            lead/20
-        ]
-        time: 100
-    },
-    {
-        unit:T3Rocket
-        requirements: [
-            silicon/20
-            lead/20
-        ]
-        time: 100
-    },
-    {
-        unit:T4Rocket
-        requirements: [
-            silicon/20
-            lead/20
-        ]
-        time: 100
-    },
-    {
-        unit:T5Rocket
-        requirements: [
-            silicon/20
-            lead/20
-        ]
-        time: 100
+        time: 600
     },
     {
         unit:T1Shotgun
         requirements: [
-            silicon/30
-            lead/10
-        ]
-        time: 400
-    },
-    {
-        unit:T2Shotgun
-        requirements: [
-            silicon/20
+            iron/20
             lead/20
         ]
-        time: 100
-    },
-    {
-        unit:T3Shotgun
-        requirements: [
-            silicon/20
-            lead/20
-        ]
-        time: 100
-    },
-    {
-        unit:T4Shotgun
-        requirements: [
-            silicon/20
-            lead/20
-        ]
-        time: 100
-    },
-    {
-        unit:T5Shotgun
-        requirements: [
-            silicon/20
-            lead/20
-        ]
-        time: 100
-    },
-    {
-        unit:T4Rocketgun
-        requirements: [
-            silicon/30
-            lead/10
-        ]
-        time: 400
-    },
-    {
-        unit:T5Rocketgun
-        requirements: [
-            silicon/30
-            lead/10
-        ]
-        time: 400
-    },
-    {
-        unit:T3Rocketgun
-        requirements: [
-            silicon/30
-            lead/10
-        ]
-        time: 400
+        time: 600
     }
 ]
 category: units
