@@ -16,14 +16,13 @@ consumes: {
     items: {
         items: [
             {
-                item: lead
+                item: graphite
                 amount: 50
-            },
-            {
-                item: metaglass
+            {,
+            }
+                item: iron
                 amount: 50
-            },
-            silicon/40
+            }
         ]
     }
     power: 3
