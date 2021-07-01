@@ -89,7 +89,7 @@ ammoPerShot: 5
 maxAmmo: 30
 requirements:[
   graphite/100
-  silcon/70
+  silicon/70
   steel/45
 ]
 targetAir: true
