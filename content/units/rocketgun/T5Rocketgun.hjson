@@ -51,4 +51,13 @@ weapons: [
         }
     }
 ]
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 160
+    regen: 0
+    max: 2000
+    cooldown: 90
+  }
+]
 research: IronGroundFactory
