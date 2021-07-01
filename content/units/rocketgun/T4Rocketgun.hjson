@@ -63,7 +63,7 @@ weapons: [
 abilities: [
   {
     type: ForceFieldAbility
-    radius: 10
+    radius: 25
     regen: 3
     max: 650
     cooldown: 90
