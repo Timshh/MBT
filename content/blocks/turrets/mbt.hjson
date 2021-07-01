@@ -15,7 +15,7 @@ ammoTypes: {
   thorium: {
     type: MissileBulletType
     bulletSprite: missile
-    lifetime: 69
+    lifetime: 64
     speed: 2
     drag:-0.02
     splashDamageRadius: 20
@@ -27,7 +27,7 @@ ammoTypes: {
   blast-compound: {
     type: MissileBulletType
     bulletSprite: missile
-    lifetime: 80
+    lifetime: 70
     speed: 3
     drag:-0.01
     splashDamageRadius: 10
