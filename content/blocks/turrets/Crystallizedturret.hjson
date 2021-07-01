@@ -2,7 +2,7 @@ type: ItemTurret
 name: CtT
 description: Heavy crystal turret.
 health: 750
-size: 3
+size: 2
 reloadTime: 60
 range: 375
 inaccuracy: 2

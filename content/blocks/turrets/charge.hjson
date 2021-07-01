@@ -2,7 +2,7 @@ type: ItemTurret
 name: Charge
 description: Rocket turret mk2.
 health: 750
-size: 4
+size: 2
 shotWidth: 10
 burstSpacing: 3
 reloadTime: 250
