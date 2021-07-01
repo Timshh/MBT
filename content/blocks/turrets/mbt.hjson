@@ -2,7 +2,7 @@ type: ItemTurret
 name: Mbt
 description: Rocket turret mk2.
 health: 750
-size: 3
+size: 2
 shotWidth: 10
 burstSpacing: 5
 reloadTime: 100
