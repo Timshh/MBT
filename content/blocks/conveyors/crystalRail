@@ -9,3 +9,5 @@ requirements: [
   crystal/1
   graphite/1
 ]
+category: distribution
+research: titanium-conveyor
