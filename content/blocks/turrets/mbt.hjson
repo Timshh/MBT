@@ -9,7 +9,7 @@ reloadTime: 100
 shots: 8
 range: 300
 inaccuracy: 5
-xRand: 10
+xRand: 4
 rotatespeed: 40
 ammoTypes: {
   thorium: {
