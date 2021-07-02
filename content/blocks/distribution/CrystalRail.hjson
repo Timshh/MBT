@@ -8,6 +8,7 @@ recharge: 60
 requirements: [
   crystal/1
   graphite/1
+  metaglass/1
 ]
 loadEffect: {
   type: ParticleEffect
