@@ -4,7 +4,7 @@ description: Transports items fast, but at a lower rate than a plastanium convey
 health: 75
 itemCapacity: 25
 speed: 0.80
-recharge: 50
+recharge: 20
 requirements: [
   crystal/1
   graphite/1
