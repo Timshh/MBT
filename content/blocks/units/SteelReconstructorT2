@@ -1,8 +1,8 @@
-
 type: Reconstructor
 health: 500
 size: 3
 name: steelReconstructorT2
+description: test.
 itemCapacity: 80
 constructTime: 90
 requirements: [
@@ -28,4 +28,4 @@ consumes: {
     power: 3
 }
 category: units
-research: tech-factory
+research: command-center

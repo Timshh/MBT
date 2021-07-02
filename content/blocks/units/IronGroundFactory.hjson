@@ -1,5 +1,6 @@
 type: UnitFactory
-name: steelReconstructorT2
+name: IronGroundFactory
+description: test.
 health: 250
 size: 3
 itemCapacity: 40
