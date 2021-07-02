@@ -11,4 +11,4 @@ requirements:[
 ]
 insulated:true
 absorbLasers:true
-Category:walls
+category: defense
