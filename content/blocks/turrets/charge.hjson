@@ -1,0 +1,41 @@
+type: ItemTurret
+name: Charge
+description: Heavy nuclear-based artillery turret.
+health: 750
+size: 2
+shotWidth: 10
+burstSpacing: 3
+reloadTime: 300
+shots: 10
+range: 500
+inaccuracy: 4
+shake: 0.3
+rotatespeed: 40
+ammoTypes: {
+  thoriumPackage: {
+    type: ArtilleryBulletType
+    bulletSprite: bullet
+    trailMult: 15
+    trailSize: 10
+    speed: 3
+    width: 15
+    splashDamageRadius: 60
+    splashDamage: 60
+    status: shocked
+    height: 15
+    damage: 40
+    hitEffect:blastExplosion
+  }
+}
+ammoPerShot: 5
+maxAmmo: 30
+requirements:[
+  steel/200
+  thorium/250
+  iron/100
+  metaglass/50
+]
+targetAir: false
+targetGround: true
+category: turret
+research:swarmer

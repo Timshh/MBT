@@ -1,0 +1,13 @@
+type: Wall
+name:crystal wall
+description: Wall of fused crystals who deflect projectiles.
+size: 1
+health: 2000
+chanceDeflect: 90
+requirements:[
+  crystal/6
+  graphite/10
+]
+insulated:true
+absorbLasers:true
+category: defense

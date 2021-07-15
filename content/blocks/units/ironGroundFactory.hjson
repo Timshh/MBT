@@ -1,0 +1,36 @@
+type: UnitFactory
+name: Iron ground factory
+description: test.
+health: 250
+size: 3
+itemCapacity: 40
+requirements: [
+    copper/100
+    lead/250
+    silicon/70
+    iron/140
+]
+plans: [
+    {
+        unit:T1Rocket
+        requirements: [
+            iron/15
+            copper/20
+        ]
+        time: 600
+    },
+    {
+        unit:T1Shotgun
+        requirements: [
+            iron/15
+            lead/20
+        ]
+        time: 600
+    }
+]
+category: units
+consumes: {
+    power: 2
+}
+research: command-center
+category: units
