@@ -1,3 +1,0 @@
-# MBT
-Mindustry mod
-beta
