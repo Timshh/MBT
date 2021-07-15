@@ -9,6 +9,7 @@ legMoveSpace: 1.9
 hovering: true
 allowLegStep: true
 visualElevation: 0.2
+buildSpeed: 1.2
 weapons: [
     {
     name: rocket-T4-gun1
@@ -48,4 +49,4 @@ weapons: [
     }
     }
 ]
-research: IronGroundFactory
+research: T3Rocket

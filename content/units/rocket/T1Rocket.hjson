@@ -25,4 +25,4 @@ weapons: [
         }
     }
 ]
-research: IronGroundFactory
+research: ironGroundFactory

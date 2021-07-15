@@ -4,7 +4,7 @@ description: make iron package by scrap.
 hasLiquids: true
 hasItems: true
 hasPower: true
-craftTime: 10
+craftTime: 25
 size: 2
 health: 100
 requirements:[

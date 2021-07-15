@@ -12,7 +12,7 @@ coolantPower: 0.225
 consumes: {
   items: {
     items: [
-      thoriumpackage/1
+      thoriumPackage/1
     ]
   }
   liquid: {

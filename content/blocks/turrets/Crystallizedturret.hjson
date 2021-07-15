@@ -1,5 +1,5 @@
 type: ItemTurret
-name: CtT
+name: Crystal turret
 description: Heavy crystal turret.
 health: 750
 size: 2
@@ -10,16 +10,22 @@ rotatespeed: 40
 ammoTypes: {
   crystal: {
     type: BasicBulletType
-    lifetime: 200
+    lifetime: 65
+    bulletSprite: crystalBullet
     speed: 5
     status: shocked
+    width: 10
+    height: 20
     damage: 500
   }
 }
 ammoPerShot: 1
 maxAmmo: 30
 requirements:[
-  copper/70
+  crystal/150
+  iron/10
+  steel/200
+  //need to place spores here
 ]
 targetAir: false
 targetGround: true

@@ -12,7 +12,7 @@ hovering: true
 allowLegStep: true
 visualElevation: 0.2
 groundLayer:74
-buildSpeed: 1.5
+buildSpeed: 1.1
 weapons: [
     {
         name: rocket-T3-gun1
@@ -40,4 +40,4 @@ weapons: [
         }
     }
 ]
-research: IronGroundFactory
+research: T2Rocket

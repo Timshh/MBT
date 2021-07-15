@@ -10,6 +10,7 @@ weapons: [
         reload: 3
         x: 4
         y: 2
+        top: false
         inaccuracy: 10
         bullet: {
             type: BasicBulletType
@@ -22,4 +23,4 @@ weapons: [
         }
     }
 ]
-research: IronGroundFactory
+research: T1Shotgun

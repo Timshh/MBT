@@ -1,7 +1,7 @@
 type: Reconstructor
 health: 500
 size: 3
-name: steelReconstructorT2
+name: steel reconstructorT2
 description: test.
 itemCapacity: 80
 constructTime: 90
@@ -25,7 +25,7 @@ consumes: {
             }
         ]
     }
-    power: 3
+    power: 6
 }
 category: units
-research: command-center
+research: ironGroundFactory

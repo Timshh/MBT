@@ -8,13 +8,13 @@ weapons: [
     {
         name: rocketgun-T3-gun2
         reload: 35
-        x: 5
+        x: 3
         y: -6
         shootSound: missile
         top: false
         shots: 5
         shotDelay: 2
-        inaccuracy: 25
+        inaccuracy: 12
         xRand: 5
         bullet: {
             type: MissileBulletType
@@ -37,10 +37,10 @@ weapons: [
         name: rocketgun-T3-gun1
         reload: 40
         x: 7
-        y: 5
-        shots: 5
-        top: true
-        inaccuracy: 30
+        y: 0
+        shots: 6
+        top: false
+        inaccuracy: 20
         bullet: {
             type: BasicBulletType
             bulletSprite: bullet
@@ -60,4 +60,4 @@ abilities: [
     cooldown: 90
   }
 ]
-research: IronGroundFactory
+research: T3Rocket

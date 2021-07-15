@@ -1,6 +1,6 @@
 type: mech
 speed: 0.8
-health: 15000
+health: 10000
 armor: 8
 canBoost: true
 boostMultiplier: 1.8
@@ -34,6 +34,7 @@ weapons: [
         x: 10
         y: 4
         inaccuracy: 4
+        top: false
         shots: 6
         bullet: {
             type: BasicBulletType
@@ -47,4 +48,4 @@ weapons: [
         }
     }
 ]
-research: IronGroundFactory
+research: T4Shotgun

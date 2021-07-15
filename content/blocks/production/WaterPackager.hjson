@@ -1,14 +1,13 @@
 type: GenericCrafter
-name:Cryo packager
-description: make cryo package by cryofuild and metaglass.
+name:Water packager
+description: Make water package by water and metaglass.
 hasLiquids: true
 hasItems: true
 hasPower: true
-craftTime: 10
+craftTime: 20
 size: 2
 health: 100
 requirements:[
-titanium/100 
 silicon/25
 lead/100, 
 graphite/50
@@ -16,7 +15,7 @@ graphite/50
 itemCapacity: 20
 category: crafting
 outputItem:{
-  item: CryoPackage
+  item: waterPackage
   amount: 1
 }
 consumes: {

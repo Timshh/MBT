@@ -6,35 +6,34 @@ canBoost: true
 boostMultiplier: 1.5
 weapons: [
     {
-        name: rocketgun-T4-gun2
-        reload: 3
-        shots: 5
-        shotDelay: 4
+        name: rocketgun-T4-gun1
+        reload: 2
+        shots: 4
+        shotDelay: 2
         x: 8
-        y: -2 
+        y: -1
         inaccuracy: 10
+        top: false
         xRand: 2
         bullet: {
             type: BasicBulletType
             bulletSprite: bullet
             lifetime: 80
             speed: 3
-            damage: 20
+            damage: 10
             frontColor: f8ad42
             backColor: f68021
         }
     },
     {
-    name: rocketgun-T4-gun1
+    name: rocketgun-T4-gun2
     reload: 70
     top: false
     reload: 20
-    y: -5
+    y: -8
     shake: 1
-    x: 0
-    mirror: false
+    x: 4
     shootSound: missile
-    top: false
     inaccuracy: 8
     bullet: {
         type: MissileBulletType
@@ -54,7 +53,7 @@ weapons: [
             type: BasicBulletType
             width: 3
             lifetime:40
-            splashDamage:25
+            splashDamage:20
             splashDamageRadius:10
         }
     }
@@ -69,4 +68,4 @@ abilities: [
     cooldown: 90
   }
 ]
-research: IronGroundFactory
+research: T3Rocketgun

@@ -1,0 +1,35 @@
+type: Reconstructor
+health: 500
+size: 5
+name: steel reconstructorT3
+description: test.
+itemCapacity: 160
+constructTime: 120
+requirements: [
+    copper/1
+]
+upgrades: [
+    [T2Rocket,T3Rocket],
+    [T2Shotgun,T3Shotgun]
+]
+consumes: {
+    items: {
+        items: [
+            {
+                item: steel
+                amount: 40
+            },
+            {
+                item: iron
+                amount: 60
+            },
+            {
+                item: metaglass
+                amount: 80
+            }
+        ]
+    }
+    power: 15
+}
+category: units
+research: steelReconstructorT2

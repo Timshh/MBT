@@ -10,6 +10,7 @@ weapons: [
         y: 2
         inaccuracy: 3
         shots: 4
+        top: false
         bullet: {
             type: BasicBulletType
             bulletSprite: bullet
@@ -21,4 +22,4 @@ weapons: [
         }
     }
 ]
-research: IronGroundFactory
+research: ironGroundFactory

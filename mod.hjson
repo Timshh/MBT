@@ -1,6 +1,6 @@
-name: "Mbt"
-displayName: "Mbt" //what displays in the mod selection menu
+name: "MBT"
+displayName: "MBT"
 author: "Timshh"
-description: "A simple mod. Missle burst turret"
-version: "3.2"
+description: "Mod based on units"
+version: "0.6"
 minGameVersion: "127.3"

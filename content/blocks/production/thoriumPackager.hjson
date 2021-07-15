@@ -1,0 +1,30 @@
+type: GenericCrafter
+name:Thorium charger
+description: Make thorium package by thorium and steel package.
+hasLiquids: true
+hasItems: true
+hasPower: true
+craftTime: 25
+size: 3
+health: 100
+requirements:[
+steel/100 
+silicon/25
+lead/100, 
+iron/150
+]
+itemCapacity: 20
+category: crafting
+outputItem:{
+  item: thoriumPackage
+  amount: 1
+}
+consumes: {
+  power: 2
+  items: {
+    items: [
+      thorium/6
+      steel/4
+    ]
+  }
+}
