@@ -1,0 +1,67 @@
+type: legs
+speed: 0.9
+health: 12000
+legCount:4
+legLength: 17
+legTrns: 0.9
+legMoveSpace: 1.6
+legBaseOffset:2
+hovering: true
+armor: 8
+allowLegStep: true
+visualElevation: 0.2
+buildSpeed: 1.3
+weapons: [
+    {
+    mirror: false
+    top: false
+    shake: 4
+    shootY: 7
+    x: 0
+    y: 0
+    reload: 155
+    continuous: true
+    bullet: {
+        type: ContinuousLaserBulletType
+        damage: 30
+        length: 175
+        drawSize: 420
+        lifetime: 160
+        incendChance: 0.1
+        incendSpread: 5
+        incendAmount: 1
+        }
+    },
+    {
+    name: rocket-T5-gun2
+    reload: 70
+    x: 0
+    y: -7
+    top: false
+    rotate: false
+    mirror: false
+    inaccuracy: 4
+    shots: 6
+    controllable: false
+    autoTarget: true
+    recoil: 2
+    bullet: {
+        type: MissileBulletType
+        bulletSprite: bullet
+        lifetime: 80
+        speed: 4
+        homingPower: 3
+        homingRange: 230
+        damage: 70
+        weaveScale: 40
+        weaveMag: 2.5
+        trailColor: 66ffffff
+        trailWidth: 2.5
+        trailLength: 20
+        trailChance: -1
+        frontColor: f8ad42
+        backColor: f68021
+        }
+    }
+]
+research: T4Rocket
