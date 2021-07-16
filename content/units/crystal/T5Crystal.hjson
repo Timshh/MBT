@@ -16,20 +16,31 @@ weapons: [
     mirror: false
     top: false
     shake: 4
-    shootY: 7
+    shootY: 10
+    recoil: 0
+    chargeSound: lasercharge2
+    shootSound: beam
     x: 0
     y: 0
     reload: 155
     continuous: true
+    cooldownTime: 200
     bullet: {
         type: ContinuousLaserBulletType
-        damage: 30
+        damage: 50
         length: 175
+        color: 66ffffff
         drawSize: 420
         lifetime: 160
         incendChance: 0.1
         incendSpread: 5
         incendAmount: 1
+        shake: 1
+        frontColor: 66ffffff
+        backColor: 66ffffff
+        despawnEffect: smokeCloud
+        smokeEffect: none
+        //shootEffect: greenLaserChargeSmall
         }
     },
     {
@@ -40,8 +51,9 @@ weapons: [
     top: false
     rotate: false
     mirror: false
-    inaccuracy: 4
+    inaccuracy: 6
     shots: 6
+    shootCone: 360
     controllable: false
     autoTarget: true
     recoil: 2
@@ -50,17 +62,17 @@ weapons: [
         bulletSprite: bullet
         lifetime: 80
         speed: 4
-        homingPower: 3
+        homingPower: 2
         homingRange: 230
-        damage: 70
+        damage: 100
         weaveScale: 40
         weaveMag: 2.5
         trailColor: 66ffffff
         trailWidth: 2.5
         trailLength: 20
         trailChance: -1
-        frontColor: f8ad42
-        backColor: f68021
+        frontColor: 66ffffff
+        backColor: 66ffffff
         }
     }
 ]
