@@ -28,9 +28,9 @@ weapons: [
     bullet: {
         type: ContinuousLaserBulletType
         damage: 50
-        length: 175
+        length: 150
         color: 66ffffff
-        drawSize: 420
+        drawSize: 250
         lifetime: 160
         incendChance: 0.1
         incendSpread: 5
@@ -38,6 +38,8 @@ weapons: [
         shake: 1
         frontColor: 66ffffff
         backColor: 66ffffff
+        colors: [66ffffff, ffffff]
+        lightColor: 6f7fe8
         despawnEffect: smokeCloud
         smokeEffect: none
         //shootEffect: greenLaserChargeSmall
