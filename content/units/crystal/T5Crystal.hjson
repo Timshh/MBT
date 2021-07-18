@@ -36,6 +36,7 @@ weapons: [
         incendSpread: 5
         incendAmount: 1
         shake: 1
+        width: 5
         frontColor: 66ffffff
         backColor: 66ffffff
         colors: [66ffffff, ffffff]
@@ -64,7 +65,7 @@ weapons: [
         bulletSprite: bullet
         lifetime: 80
         speed: 4
-        homingPower: 2
+        homingPower: 1
         homingRange: 230
         damage: 100
         weaveScale: 40
