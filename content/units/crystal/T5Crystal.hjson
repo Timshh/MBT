@@ -47,7 +47,7 @@ weapons: [
         }
     },
     {
-    name: rocket-T5-gun2
+    name: crystal-T5-gun2
     reload: 70
     x: 0
     y: -7
