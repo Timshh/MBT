@@ -4,6 +4,8 @@ description: make cryo package by cryofuild and metaglass.
 hasLiquids: true
 hasItems: true
 hasPower: true
+updateEffect: wet
+craftEffect: freezing
 craftTime: 20
 size: 2
 health: 100
