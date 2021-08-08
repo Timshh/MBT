@@ -1,0 +1,11 @@
+type: Conduit
+name: crystallic tube
+leaks: true
+health: 540
+requirements: [
+  crystal/3
+  metaglass/3
+]
+liquidCapacity: 65
+liquidPressure: 1.5
+category: liquid

@@ -1,6 +1,6 @@
 type: Wall
 name:crystal wall
-description: Wall of fused crystals who deflect projectiles.
+description: wall of fused crystals what deflect projectiles.
 size: 1
 health: 2000
 chanceDeflect: 90

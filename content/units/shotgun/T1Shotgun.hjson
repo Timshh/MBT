@@ -1,4 +1,6 @@
 type: mech
+name:shot
+description: light shotgun unit with 2 shotguns
 speed: 0.8
 health: 210
 armor: 2

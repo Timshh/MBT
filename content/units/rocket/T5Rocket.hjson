@@ -1,4 +1,6 @@
 type: legs
+name: rain
+description: ultimative rocket unit with heavy casset launcher and 2 light launchers.
 speed: 0.8
 health: 10200
 legCount: 6

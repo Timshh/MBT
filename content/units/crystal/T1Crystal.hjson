@@ -1,0 +1,34 @@
+type: mech
+description: new test units.
+speed: 0.9
+health: 230
+armor: 0
+weapons: [
+    {
+    name: crystal-T1-gun2
+    reload: 10
+    x: 2
+    y: -2
+    top: false
+    rotate: false
+    inaccuracy: 25
+    bullet: {
+        type: MissileBulletType
+        bulletSprite: bullet
+        lifetime: 100
+        speed: 3
+        homingPower: 1
+        homingRange: 230
+        damage: 3
+        weaveScale: 5
+        weaveMag: 2.0
+        trailColor: 66ffffff
+        trailWidth: 2.5
+        trailLength: 20
+        trailChance: -1
+        frontColor: 66ffffff
+        backColor: 66ffffff
+        }
+    }
+]
+research: ironGroundFactory

@@ -1,4 +1,6 @@
 type: mech
+name: reactive
+description: light rocket unit with 2 rocket launchers.
 speed: 0.6
 health: 200
 armor: 0

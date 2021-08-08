@@ -1,6 +1,6 @@
 type: ItemTurret
-name: Mbt
-description: Rocket turret mk2.
+name: MBT
+description: universal rocket turret.
 health: 750
 size: 2
 shotWidth: 10

@@ -1,11 +1,12 @@
 type: legs
+description: new test units.
 speed: 1
-health: 4500
+health: 875
 legCount:4
 legLength: 14
-legTrns: 0.6
-legMoveSpace: 1.4
-legBaseOffset:2
+legTrns: 0.8
+legMoveSpace: 1.9
+legBaseOffset:3
 hovering: true
 armor: 8
 allowLegStep: true
@@ -47,4 +48,4 @@ weapons: [
         }
     }
 ]
-research: T4Rocket
+research: T3Crystal

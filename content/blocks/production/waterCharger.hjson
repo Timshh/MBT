@@ -1,6 +1,5 @@
-type: GenericCrafter
 name:Water charger
-description: Make high voltage package by power and water package.
+description: Make high voltage package by power, metaglass and water.
 hasLiquids: true
 hasItems: true
 hasPower: true
@@ -8,9 +7,9 @@ craftTime: 20
 size: 2
 health: 100
 requirements:[ 
-silicon/25
-lead/100, 
-graphite/50
+  silicon/25
+  steel/10
+  graphite/50
 ]
 itemCapacity: 20
 category: crafting
@@ -22,7 +21,11 @@ consumes: {
   power: 2
   items: {
     items: [
-      waterPackage/1
+      metaglass/1
     ]
   }
+  liquid: {
+		liquid: water
+		amount: 0.2
+	}
 }

@@ -1,0 +1,39 @@
+type: Reconstructor
+health: 500
+size: 4
+name: Alternative reconstructor
+description: remaking rocket and shotgun units to new type of units.
+itemCapacity: 160
+constructTime: 120
+requirements: [
+    copper/300
+    lead/400
+    silicon/500
+    iron/200
+    steel/100
+]
+upgrades: [
+    [T3Rocket,T3Rocketgun],
+    [T3Shotgun,T3Rocketgun]
+]
+consumes: {
+    items: {
+        items: [
+            {
+                item: steel
+                amount: 100
+            },
+            {
+                item: iron
+                amount: 80
+            },
+            {
+                item: metaglass
+                amount: 120
+            }
+        ]
+    }
+    power: 6
+}
+category: units
+research: steelReconstructorT3

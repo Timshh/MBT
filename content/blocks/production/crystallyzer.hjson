@@ -1,0 +1,49 @@
+type: GenericCrafter
+name:Crystallyzer
+description: make crystals by high temperature graphite.
+hasItems: true
+hasPower: true
+craftTime: 50
+size: 2
+health: 100
+requirements:[
+titanium/100 
+silicon/25
+lead/100, 
+graphite/50
+]
+itemCapacity: 20
+category: crafting
+outputItem:{
+  item: crystal
+  amount: 1
+}
+consumes: {
+  power: 0.1
+  items: {
+    items: [
+      blast-compound/2
+      graphite/2
+    ]
+  }
+}
+drawer: drawRotator
+updateEffect: {
+  type: ParticleEffect
+  length: 10
+  particles: 10
+  lifetime: 50
+  colorFrom: 66ffffff
+  colorTo: 66ffffff
+  sizeFrom: 0.75
+}
+craftEffect: {
+  type: ParticleEffect
+  length: 12
+  lifetime: 45
+  particles: 12
+  colorFrom: 66ffffff
+  colorTo: 66ffffff
+  sizeFrom: 1.5
+  sizeTo: 0
+}

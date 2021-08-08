@@ -1,23 +1,29 @@
 type: GenericCrafter
-name:Thorium charger
-description: Make thorium package by thorium and steel package.
-hasLiquids: true
+name:Thorium packager
+description: Make thorium package by thorium and steel.
 hasItems: true
 hasPower: true
-craftTime: 25
-size: 3
+craftTime: 50
+size: 2
 health: 100
 requirements:[
 steel/100 
-silicon/25
-lead/100, 
-iron/150
+  silicon/25
+  lead/100, 
+  iron/150
 ]
+craftEffect: {
+  type: ParticleEffect
+  lifetime: 90
+  particles: 18
+  length: 13
+  colorTo: 800040ff
+}
 itemCapacity: 20
 category: crafting
 outputItem:{
   item: thoriumPackage
-  amount: 1
+  amount: 3
 }
 consumes: {
   power: 2

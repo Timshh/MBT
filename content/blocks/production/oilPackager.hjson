@@ -1,16 +1,15 @@
-type: GenericCrafter
 name:Oil packager
-description: make cryo package by cryofuild and metaglass.
+description: make oil package by oil and metaglass.
 hasLiquids: true
 hasItems: true
 hasPower: true
 craftTime: 20
 size: 2
 health: 100
-requirements:[
-silicon/25
-lead/100, 
-graphite/50
+requirements:[ 
+  silicon/25
+  steel/10
+  graphite/50
 ]
 itemCapacity: 20
 category: crafting

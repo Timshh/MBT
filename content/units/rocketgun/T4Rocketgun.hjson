@@ -1,4 +1,6 @@
 type: mech
+name:lancer
+description: rocketgun unit with minigun and casset launchers
 speed: 1
 health: 5200
 armor: 5

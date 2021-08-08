@@ -1,12 +1,15 @@
 type: Reconstructor
 health: 500
-size: 3
-name: steel reconstructorT2
-description: test.
+size: 2
+name: iron reconstructorT2
+description: upgrade T1 to T2 rocket and shotgun units.
 itemCapacity: 80
 constructTime: 90
 requirements: [
-    copper/1
+    copper/250
+    lead/500
+    silicon/150
+    iron/200
 ]
 upgrades: [
     [T1Rocket,T2Rocket],

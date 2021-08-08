@@ -1,6 +1,6 @@
 type: Wall
 name:large crystal wall
-description: Wall of fused crystals who deflect projectiles.
+description: large wall of fused crystals what deflect projectiles.
 size: 2
 health: 9200
 chanceDeflect: 96

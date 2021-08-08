@@ -1,5 +1,5 @@
-name: kineticReactor
 type: NuclearReactor
+name: kinetic reactor
 size: 3
 health: 1300
 itemDuration: 360

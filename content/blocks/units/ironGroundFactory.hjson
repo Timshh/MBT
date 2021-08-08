@@ -1,8 +1,8 @@
 type: UnitFactory
 name: Iron ground factory
-description: test.
+description: makes T1 rocket and shotgun units.
 health: 250
-size: 3
+size: 2
 itemCapacity: 40
 requirements: [
     copper/100

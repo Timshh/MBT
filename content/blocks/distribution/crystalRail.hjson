@@ -1,6 +1,6 @@
 type: StackConveyor
 name: Crystal rail
-description: Transports items fast, but at a lower rate than a plastanium conveyor.
+description: Transports items very fast, but at a lower rate than a plastanium conveyor.
 health: 75
 itemCapacity: 25
 speed: 0.80

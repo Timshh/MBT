@@ -1,4 +1,6 @@
 type: mech
+name:fire
+description: shotgun unit with 2 heavy shotguns
 speed: 0.8
 health: 1100
 armor: 5

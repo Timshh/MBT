@@ -1,4 +1,6 @@
 type: mech
+name:laser
+description: ultimative shotgun unit with 2 heavy machine guns and 2 shotguns
 speed: 0.8
 health: 10000
 armor: 8

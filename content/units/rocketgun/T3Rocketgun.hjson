@@ -1,4 +1,6 @@
 type: mech
+name:lancelot
+description: light rocketgun unit with shotguns and burst launchers
 speed: 1
 health: 800
 armor: 5
@@ -17,20 +19,29 @@ weapons: [
         inaccuracy: 12
         xRand: 5
         bullet: {
-            type: MissileBulletType
-            bulletSprite: missile
-            lifetime: 75
-            speed: 3
-            splashDamageRadius: 20
-            splashDamage: 6
-            homingPower: 2
-            homingRange: 100
-            speed: 2
-            drag:-0.01
+            type: BasicBulletType
+            bulletSprite: bullet
+            lifetime: 20
+            speed: 0.4
             damage: 7
-            trailEffect: incendTrail
-            trailParam: 1
-            trailColor: ffffffff
+            fragBullets: 1
+            fragCone: 0
+            fragBullet: {
+                type: MissileBulletType
+                bulletSprite: missile
+                lifetime: 75
+                speed: 3
+                splashDamageRadius: 20
+                splashDamage: 6
+                homingPower: 2
+                homingRange: 100
+                speed: 2
+                drag:-0.01
+                damage: 7
+                trailEffect: incendTrail
+                trailParam: 1
+                trailColor: ffffffff
+            }
         }
     },
     {

@@ -1,24 +1,28 @@
 type: GenericCrafter
 name:Ironeer
 description: make iron package by scrap.
-hasLiquids: true
 hasItems: true
 hasPower: true
-craftTime: 25
+craftTime: 50
 size: 2
 health: 100
-requirements:[
-titanium/100 
-silicon/25
-lead/100, 
-graphite/50
+requirements:[ 
+  silicon/50
+  lead/50
 ]
+craftEffect: {
+  type: ParticleEffect
+  lifetime: 50
+  length: 10
+  colorTo: 7382f0
+}
 itemCapacity: 20
 category: crafting
 outputItem:{
   item: iron
   amount: 1
 }
+flameColor: 90a2fc
 consumes: {
   power: 0.1
   items: {

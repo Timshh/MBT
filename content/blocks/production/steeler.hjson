@@ -1,10 +1,9 @@
 type: GenericCrafter
-name:steelller
+name:steel melter
 description: make steel by coal and scrap.
-hasLiquids: true
 hasItems: true
 hasPower: true
-craftTime: 10
+craftTime: 50
 size: 2
 health: 100
 requirements:[
@@ -19,6 +18,13 @@ outputItem:{
   item: steel
   amount: 1
 }
+craftEffect: {
+  type: ParticleEffect
+  lifetime: 35
+  length: 8
+  colorTo: 7382f0
+}
+flameColor: 90a2fc
 consumes: {
   power: 0.5
   items: {

@@ -1,0 +1,28 @@
+type: mech
+description: new test units.
+speed: 0.9
+health: 700
+armor: 3
+weapons: [
+    {
+    mirror: false
+    top: false
+    shootY: 5
+    recoil: 0
+    x: 0
+    y: 0
+    reload: 80
+    bullet: {
+        type: LaserBulletType
+        damage: 90
+        lifetime: 60
+        length: 100
+        width: 12
+        largeHit: true
+        sideAngle: 0
+        sideWidth: 0
+        colors: [66ffffff, ffffff]
+    }
+    }
+]
+research: T1Crystal

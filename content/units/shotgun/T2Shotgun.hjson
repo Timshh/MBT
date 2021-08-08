@@ -1,4 +1,6 @@
 type: mech
+name:burst
+description: shotgun unit with 2 machine guns
 speed: 0.8
 health: 700
 armor: 3

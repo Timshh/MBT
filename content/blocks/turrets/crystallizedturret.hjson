@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Crystal turret
-description: Heavy crystal turret.
+description: Heavy crystal canon.
 health: 750
 size: 2
 reloadTime: 60

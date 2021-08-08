@@ -1,4 +1,6 @@
 type: mech
+name:explouson
+description: heavy shotgun unit with 2 miniguns
 speed: 0.8
 health: 6300
 armor: 5

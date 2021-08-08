@@ -1,11 +1,12 @@
 type: legs
+description: new test units.
 speed: 1
 health: 875
 legCount:4
-legLength: 13
-legTrns: 0.6
-legMoveSpace: 1.6
-legBaseOffset:2
+legLength: 14
+legTrns: 0.8
+legMoveSpace: 1.9
+legBaseOffset:3
 hovering: true
 armor: 8
 allowLegStep: true
@@ -14,14 +15,16 @@ buildSpeed: 1.3
 weapons: [
     {
     name: crystal-T3-gun2
-    reload: 20
+    reload: 40
     x: 0
-    y: -7
+    y: -5
     top: false
     rotate: false
     mirror: false
     inaccuracy: 25
+    xRand: 2
     shots: 4
+    shotDelay: 5
     bullet: {
         type: MissileBulletType
         bulletSprite: bullet
@@ -41,4 +44,4 @@ weapons: [
         }
     }
 ]
-research: T4Rocket
+research: T2Crystal

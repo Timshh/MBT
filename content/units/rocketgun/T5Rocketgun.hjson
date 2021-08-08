@@ -1,4 +1,6 @@
 type: mech
+name:lancer
+description: heavy rocketgun unit with shotgun and burst launchers
 speed: 1
 health: 10500
 armor: 15
@@ -17,20 +19,29 @@ weapons: [
         inaccuracy: 30
         xRand: 5
         bullet: {
-            type: MissileBulletType
-            bulletSprite: missile
-            lifetime: 75
-            speed: 3
-            splashDamageRadius: 20
-            splashDamage: 25
-            homingPower: 2
-            homingRange: 100
-            speed: 2
-            drag:-0.01
+            type: BasicBulletType
+            bulletSprite: bullet
+            lifetime: 20
+            speed: 0.4
             damage: 50
-            trailEffect: incendTrail
-            trailParam: 1
-            trailColor: ffffffff
+            fragBullets: 1
+            fragCone: 0
+            fragBullet: {
+                type: MissileBulletType
+                bulletSprite: missile
+                lifetime: 75
+                speed: 3
+                splashDamageRadius: 20
+                splashDamage: 25
+                homingPower: 2
+                homingRange: 100
+                speed: 2
+                drag:-0.01
+                damage: 50
+                trailEffect: incendTrail
+                trailParam: 1
+                trailColor: ffffffff
+            }
         }
     },
     {

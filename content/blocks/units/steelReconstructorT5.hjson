@@ -1,12 +1,16 @@
 type: Reconstructor
 health: 500
-size: 7
+size: 6
 name: steel reconstructorT5
-description: test.
+description:  upgrade T4 to T5 rocket, shotgun and rocketgun units.
 itemCapacity: 80
 constructTime: 90
 requirements: [
-    copper/1
+    copper/700
+    lead/700
+    silicon/500
+    iron/450
+    steel/350
 ]
 upgrades: [
     [T4Rocket,T5Rocket],
