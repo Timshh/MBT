@@ -1,9 +1,11 @@
 type: PayloadConveyor
 size: 4
-moveTime: 120
-moveForce: 536
-payloadLimit: 7.2
+moveTime: 30
+moveForce: 200
+payloadLimit: 2
 requirements: [
   titanium/200
   crystal/100
 ]
+category: units
+research: ironGroundFactory
