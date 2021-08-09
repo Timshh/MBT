@@ -10,7 +10,7 @@ maxPayloadSize: 4
 requirements: [
   titanium/350
   crystal/300
-  silcon/100
+  silicon/100
 ]
 category: units
 research: ironGroundFactory
