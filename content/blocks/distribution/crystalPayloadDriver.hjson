@@ -1,0 +1,14 @@
+type: PayloadMassDriver
+size: 4
+rotateSpeed:10
+range: 250
+knockback: 10
+reloadTime: 50
+chargeTime: 70
+maxPayloadSize: 4                       
+hasPower: true
+consumes: {
+  power: 0.5
+}
+category: units
+research: ironGroundFactory
