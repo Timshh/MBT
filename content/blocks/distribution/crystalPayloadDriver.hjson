@@ -1,4 +1,5 @@
 type: PayloadMassDriver
+name: crystal mass driver
 size: 4
 rotateSpeed:10
 range: 250
