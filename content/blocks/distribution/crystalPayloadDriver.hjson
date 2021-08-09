@@ -5,10 +5,6 @@ range: 250
 knockback: 10
 reloadTime: 50
 chargeTime: 70
-maxPayloadSize: 4                       
-hasPower: true
-consumes: {
-  power: 0.5
-}
+maxPayloadSize: 4
 category: units
 research: ironGroundFactory
