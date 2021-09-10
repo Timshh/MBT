@@ -1,0 +1,33 @@
+type: Reconstructor
+health: 500
+size: 2
+name: iron reconstructorT2
+description: upgrade T1 to T2 rocket and shotgun units.
+itemCapacity: 80
+constructTime: 90
+requirements: [
+    copper/250
+    lead/500
+    silicon/150
+    iron/200
+]
+upgrades: [
+    [T1Crystal,T2Crystal]
+]
+consumes: {
+    items: {
+        items: [
+            {
+                item: graphite
+                amount: 40
+            },
+            {
+                item: iron
+                amount: 30
+            }
+        ]
+    }
+    power: 6
+}
+category: units
+research: ironGroundFactory

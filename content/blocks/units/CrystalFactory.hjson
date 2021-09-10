@@ -1,0 +1,28 @@
+type: UnitFactory
+name: Iron ground factory
+description: makes T1 crystal units.
+health: 250
+size: 2
+itemCapacity: 40
+requirements: [
+    copper/100
+    lead/250
+    silicon/70
+    iron/140
+]
+plans: [
+    {
+        unit:T1Crystal
+        requirements: [
+            iron/15
+            crystal/20
+        ]
+        time: 600
+    }
+]
+category: units
+consumes: {
+    power: 2
+}
+research: command-center
+category: units

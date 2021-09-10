@@ -1,0 +1,38 @@
+type: Reconstructor
+health: 500
+size: 4
+name: steel reconstructorT4
+description:  upgrade T3 to T4 crystal units.
+itemCapacity: 200
+constructTime: 160
+requirements: [
+    copper/500
+    lead/600
+    silicon/500
+    iron/250
+    steel/200
+]
+upgrades: [
+    [T3Crystal,T4Crystal]
+]
+consumes: {
+    items: {
+        items: [
+            {
+                item: steel
+                amount: 80
+            },
+            {
+                item: iron
+                amount: 160
+            },
+            {
+                item: thoriumPackage
+                amount: 10
+            }
+        ]
+    }
+    power: 20
+}
+category: units
+research: steelReconstructorT3
