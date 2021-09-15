@@ -5,7 +5,6 @@ health: 750
 size: 2
 shotWidth: 10
 burstSpacing: 3
-shootSound: HEAVY CANON load
 reloadTime: 300
 shots: 10
 range: 500
