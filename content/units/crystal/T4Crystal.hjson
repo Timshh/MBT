@@ -20,7 +20,7 @@ weapons: [
     shootY: 10
     recoil: 0
     chargeSound: lasercharge2
-    shootSound: HEAVY CANON ATT v2
+    shootSound: HEAVY CANON ATT v1
     x: 0
     y: 0
     reload: 155
