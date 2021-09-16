@@ -1,0 +1,70 @@
+type: mech
+name:lancer
+description: heavy rocketgun unit with shotgun and burst launchers
+speed: 1.1
+health: 31500
+armor: 15
+canBoost: true
+boostMultiplier: 1.5
+weapons: [
+    {
+        name: rocketgun-T5-gun2
+        reload: 40
+        x: 5
+        y: -6
+        shootSound: missile
+        top: false
+        shots: 10
+        shotDelay: 2
+        inaccuracy: 30
+        xRand: 5
+        bullet: {
+            type: BasicBulletType
+            bulletSprite: bullet
+            lifetime: 20
+            speed: 0.4
+            damage: 50
+            fragBullets: 1
+            fragCone: 0
+            fragBullet: {
+                type: MissileBulletType
+                bulletSprite: missile
+                lifetime: 75
+                speed: 3
+                splashDamageRadius: 20
+                splashDamage: 25
+                homingPower: 2
+                homingRange: 100
+                speed: 2
+                drag:-0.01
+                damage: 50
+                trailEffect: incendTrail
+                trailParam: 1
+                trailColor: ffffffff
+            }
+        }
+    },
+    {
+        name: shotgun-T5-gun2
+        reload: 60
+        x: 10
+        y: 4
+        inaccuracy: 0
+        top: false
+        bullet: {
+            type: RailBulletType
+            length: 350
+            damage: 2250
+        }
+    }
+]
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 25
+    regen: 5
+    max: 2000
+    cooldown: 90
+  }
+]
+research: T4Rocketgun

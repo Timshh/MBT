@@ -30,7 +30,7 @@ weapons: [
     bullet: {
         type: ContinuousLaserBulletType
         shootEffect: greenLaserChargeSmall
-        damage: 125
+        damage: 175
         length: 250
         color: 66ffffff
         drawSize: 300

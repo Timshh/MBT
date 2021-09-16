@@ -1,0 +1,47 @@
+type: mech
+name:laser
+description: ultimative shotgun unit with 2 heavy machine guns and 2 shotguns
+speed: 0.9
+health: 30000
+armor: 11
+canBoost: true
+boostMultiplier: 1.8
+weapons: [
+    {
+        name:shotgunT5gun1
+        reload: 3
+        x: 15
+        y: -10
+        controllable: false
+        autoTarget: true
+        shots: 6
+        shotDelay: 2
+        inaccuracy: 6
+        xRand: 3
+        rotate: true
+        rotateSpeed:7.5
+        bullet: {
+            type: BasicBulletType
+            bulletSprite: bullet
+            lifetime: 100
+            speed: 6
+            damage: 70
+            frontColor: f8ad42
+            backColor: f68021
+        }
+    },
+    {
+        name: shotgun-T5-gun2
+        reload: 60
+        x: 10
+        y: 4
+        inaccuracy: 0
+        top: false
+        bullet: {
+            type: RailBulletType
+            length: 350
+            damage: 2000
+        }
+    }
+]
+research: T4Shotgun
