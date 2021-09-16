@@ -50,15 +50,14 @@ weapons: [
     {
     name: crystal-T6-gun2
     reload: 70
-    x: 0
+    x: 6
     y: -7
     top: false
     rotate: false
-    mirror: false
     inaccuracy: 20
-    shots: 6
-    shotDelay: 4
-    xRan: 3
+    shots: 12
+    shotDelay: 2
+    xRan: 4
     shootCone: 360
     controllable: false
     autoTarget: true
@@ -66,12 +65,12 @@ weapons: [
     bullet: {
         type: MissileBulletType
         bulletSprite: bullet
-        lifetime: 80
-        speed: 4
+        lifetime: 100
+        speed: 4.5
         homingPower: 1
-        homingRange: 230
-        damage: 100
-        weaveScale: 40
+        homingRange: 250
+        damage: 175
+        weaveScale: 45
         weaveMag: 2.5
         trailColor: 66ffffff
         trailWidth: 2.5
