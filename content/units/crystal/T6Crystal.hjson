@@ -8,7 +8,7 @@ legTrns: 0.9
 legMoveSpace: 1.6
 legBaseOffset:2
 hovering: true
-armor: 8
+armor: 11
 allowLegStep: true
 visualElevation: 0.2
 buildSpeed: 1.5
@@ -82,4 +82,4 @@ weapons: [
         }
     }
 ]
-research: T4Crystal
+research: T5Crystal

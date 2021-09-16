@@ -17,7 +17,6 @@ weapons: [
     {
     name: rocket-T5-gun1
     reload: 70
-    reload: 40
     x: 0
     y: -9
     mirror:false
