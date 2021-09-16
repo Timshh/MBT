@@ -57,6 +57,7 @@ weapons: [
         xRand: 2
         controllable: false
         autoTarget: true
+        rotate: true
         inaccuracy: 10
         bullet: {
             type: MissileBulletType
