@@ -16,11 +16,11 @@ weapons: [
     {
     mirror: false
     top: false
-    firstShotDelay: 50
+    firstShotDelay: 150
     shake: 4
     shootY: 12
     recoil: 0
-    chargeSound: lasercharge2
+    chargeSound: HEAVY CANON LOAD
     shootSound: HEAVY CANON ATT v2
     x: 0
     y: 0
@@ -29,27 +29,26 @@ weapons: [
     cooldownTime: 200
     bullet: {
         type: ContinuousLaserBulletType
-        damage: 50
-        length: 200
+        damage: 125
+        length: 250
         color: 66ffffff
-        drawSize: 250
+        drawSize: 300
         lifetime: 160
         incendChance: 0.1
         incendSpread: 5
         incendAmount: 1
-        shake: 1
-        width: 5
+        shake: 2
+        width: 6
         frontColor: 66ffffff
         backColor: 66ffffff
         colors: [66ffffff, ffffff]
         lightColor: 6f7fe8
         despawnEffect: smokeCloud
         smokeEffect: none
-        //shootEffect: greenLaserChargeSmall
         }
     },
     {
-    name: crystal-T5-gun2
+    name: crystal-T6-gun2
     reload: 70
     x: 0
     y: -7

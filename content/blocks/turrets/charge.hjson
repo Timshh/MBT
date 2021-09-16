@@ -8,7 +8,6 @@ burstSpacing: 3
 reloadTime: 300
 shots: 10
 range: 500
-firstShotDelay: 50
 inaccuracy: 4
 shake: 0.3
 rotatespeed: 40
