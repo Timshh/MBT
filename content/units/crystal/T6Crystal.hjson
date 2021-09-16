@@ -1,0 +1,86 @@
+type: legs
+description: new test units.
+speed: 0.9
+health: 25000
+legCount:4
+legLength: 17
+legTrns: 0.9
+legMoveSpace: 1.6
+legBaseOffset:2
+hovering: true
+armor: 8
+allowLegStep: true
+visualElevation: 0.2
+buildSpeed: 1.5
+weapons: [
+    {
+    mirror: false
+    top: false
+    firstShotDelay: 50
+    shake: 4
+    shootY: 12
+    recoil: 0
+    chargeSound: lasercharge2
+    shootSound: HEAVY CANON ATT v2
+    x: 0
+    y: 0
+    reload: 155
+    continuous: true
+    cooldownTime: 200
+    bullet: {
+        type: ContinuousLaserBulletType
+        damage: 50
+        length: 200
+        color: 66ffffff
+        drawSize: 250
+        lifetime: 160
+        incendChance: 0.1
+        incendSpread: 5
+        incendAmount: 1
+        shake: 1
+        width: 5
+        frontColor: 66ffffff
+        backColor: 66ffffff
+        colors: [66ffffff, ffffff]
+        lightColor: 6f7fe8
+        despawnEffect: smokeCloud
+        smokeEffect: none
+        //shootEffect: greenLaserChargeSmall
+        }
+    },
+    {
+    name: crystal-T5-gun2
+    reload: 70
+    x: 0
+    y: -7
+    top: false
+    rotate: false
+    mirror: false
+    inaccuracy: 20
+    shots: 6
+    shotDelay: 4
+    xRan: 3
+    shootCone: 360
+    controllable: false
+    autoTarget: true
+    recoil: 2
+    bullet: {
+        type: MissileBulletType
+        bulletSprite: bullet
+        lifetime: 80
+        speed: 4
+        homingPower: 1
+        homingRange: 230
+        damage: 100
+        weaveScale: 40
+        weaveMag: 2.5
+        trailColor: 66ffffff
+        trailWidth: 2.5
+        trailLength: 20
+        trailChance: -1
+        frontColor: 66ffffff
+        backColor: 66ffffff
+        }
+    }
+]
+research: T4Crystal
