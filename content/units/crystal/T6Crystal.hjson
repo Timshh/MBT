@@ -18,7 +18,7 @@ weapons: [
     top: false
     firstShotDelay: 150
     shake: 4
-    shootY: 12
+    shootY: 11
     recoil: 0
     chargeSound: HEAVY CANON load
     shootSound: HEAVY CANON ATT v2
@@ -33,12 +33,12 @@ weapons: [
         length: 250
         color: 66ffffff
         drawSize: 300
-        lifetime: 225
+        lifetime: 250
         incendChance: 0.1
         incendSpread: 5
         incendAmount: 1
         shake: 2
-        width: 6
+        width: 8
         frontColor: 66ffffff
         backColor: 66ffffff
         colors: [66ffffff, ffffff]
