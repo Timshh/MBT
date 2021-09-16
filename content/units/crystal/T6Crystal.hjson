@@ -29,6 +29,7 @@ weapons: [
     cooldownTime: 200
     bullet: {
         type: ContinuousLaserBulletType
+        shootEffect: greenLaserChargeSmall
         damage: 125
         length: 250
         color: 66ffffff
@@ -61,12 +62,12 @@ weapons: [
     shootCone: 360
     controllable: false
     autoTarget: true
-    recoil: 2
+    recoil: 4
     bullet: {
         type: MissileBulletType
         bulletSprite: bullet
-        lifetime: 100
-        speed: 4.5
+        lifetime: 120
+        speed: 3
         homingPower: 1
         homingRange: 250
         damage: 175
