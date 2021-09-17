@@ -17,8 +17,9 @@ weapons: [
     {
         name: rocket-T6-gun1
         reload: 90
-        x: 4
+        x: 3
         y: -9
+        top: true
         shootSound: missile
         shots: 4
         shotDelay: 3
