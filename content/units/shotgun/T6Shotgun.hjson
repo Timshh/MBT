@@ -37,11 +37,15 @@ weapons: [
         y: 4
         inaccuracy: 0
         top: false
+        shootSound: railgun
         bullet: {
             type: RailBulletType
-            length: 350
+            updateEffect: railTrail
+            shootEffect: railShoot
+            length: 325
             damage: 2000
         }
+        hitEffect: railHit
     }
 ]
 research: T4Shotgun
