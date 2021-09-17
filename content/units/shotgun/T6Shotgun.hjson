@@ -8,7 +8,7 @@ canBoost: true
 boostMultiplier: 1.8
 weapons: [
     {
-        name:shotgunT5gun1
+        name:shotgunT6gun1
         reload: 3
         x: 15
         y: -10
@@ -31,7 +31,7 @@ weapons: [
         }
     },
     {
-        name: shotgun-T5-gun2
+        name: shotgun-T6-gun2
         reload: 60
         x: 10
         y: 4

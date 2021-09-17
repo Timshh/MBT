@@ -8,13 +8,13 @@ canBoost: true
 boostMultiplier: 1.5
 weapons: [
     {
-        name: rocketgun-T5-gun2
+        name: rocketgun-T6-gun2
         reload: 40
         x: 5
         y: -6
         shootSound: missile
         top: false
-        shots: 10
+        shots: 15
         shotDelay: 2
         inaccuracy: 30
         xRand: 5
@@ -22,7 +22,7 @@ weapons: [
             type: BasicBulletType
             bulletSprite: bullet
             lifetime: 20
-            speed: 0.4
+            speed: 0.5
             damage: 50
             fragBullets: 1
             fragCone: 0
@@ -45,7 +45,7 @@ weapons: [
         }
     },
     {
-        name: shotgun-T5-gun2
+        name: rocketgun-T6-gun2
         reload: 60
         x: 10
         y: 4
