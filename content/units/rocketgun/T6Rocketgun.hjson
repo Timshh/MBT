@@ -55,7 +55,6 @@ weapons: [
         bullet: {
             type: RailBulletType
             updateEffect: railTrail
-            shootEffect: railShoot
             length: 350
             damage: 2250
         }
