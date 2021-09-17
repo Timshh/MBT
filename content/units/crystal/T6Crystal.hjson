@@ -53,8 +53,8 @@ weapons: [
     reload: 70
     x: 6
     y: -7
-    top: false
-    rotate: false
+    top: true
+    rotate: true
     inaccuracy: 20
     shots: 12
     shotDelay: 2
