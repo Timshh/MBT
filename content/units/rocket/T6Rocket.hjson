@@ -52,7 +52,7 @@ weapons: [
         name: rocket-T6-gun2
         reload: 2
         x: 10
-        y: -4
+        y: -2
         top: true
         xRand: 2
         controllable: false
