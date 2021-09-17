@@ -15,7 +15,7 @@ visualElevation: 0.2
 buildSpeed: 1.3
 weapons: [
     {
-        name: rocket-T5-gun1
+        name: rocket-T6-gun1
         reload: 90
         x: 4
         y: -9
@@ -49,7 +49,7 @@ weapons: [
     }
     },
     {
-        name: rocket-T5-gun2
+        name: rocket-T6-gun2
         reload: 2
         x: 10
         y: -4
