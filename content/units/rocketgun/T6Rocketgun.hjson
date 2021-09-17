@@ -9,7 +9,7 @@ boostMultiplier: 1.5
 weapons: [
     {
         name: rocketgun-T6-gun2
-        reload: 40
+        reload: 65
         x: 5
         y: -6
         shootSound: missile
@@ -32,12 +32,12 @@ weapons: [
                 lifetime: 75
                 speed: 3
                 splashDamageRadius: 20
-                splashDamage: 25
+                splashDamage: 50
                 homingPower: 2
                 homingRange: 100
                 speed: 2
                 drag:-0.01
-                damage: 50
+                damage: 100
                 trailEffect: incendTrail
                 trailParam: 1
                 trailColor: ffffffff
@@ -45,7 +45,7 @@ weapons: [
         }
     },
     {
-        name: rocketgun-T6-gun2
+        name: rocketgun-T6-gun1
         reload: 60
         x: 10
         y: 4
