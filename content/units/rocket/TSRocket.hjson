@@ -24,6 +24,7 @@ weapons: [
         y: -5
         shadow:1
         top: false
+        shootSound: missile
         xrand: 1
         inaccuracy: 6
         top:false

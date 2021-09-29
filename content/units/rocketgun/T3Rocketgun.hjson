@@ -37,6 +37,7 @@ weapons: [
                 homingRange: 100
                 speed: 2
                 drag:-0.01
+                hitEffect:blastExplosion    
                 damage: 7
                 trailEffect: incendTrail
                 trailParam: 1

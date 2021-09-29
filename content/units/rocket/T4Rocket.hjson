@@ -41,9 +41,11 @@ weapons: [
         fragBullets:11
         fragLifeMin:0
         fragCone:360
+        hitEffect:blastExplosion
         fragBullet:{
             type: BasicBulletType
             width: 3
+            hitEffect:blastExplosion
             lifetime:40
             splashDamage:25
             splashDamageRadius:10

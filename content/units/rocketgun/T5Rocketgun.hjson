@@ -38,6 +38,7 @@ weapons: [
                 speed: 2
                 drag:-0.01
                 damage: 50
+                hitEffect:blastExplosion
                 trailEffect: incendTrail
                 trailParam: 1
                 trailColor: ffffffff

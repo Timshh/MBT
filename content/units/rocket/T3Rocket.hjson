@@ -22,6 +22,7 @@ weapons: [
         y: -5
         shadow:1
         top: false
+        shootSound: missile
         xrand: 2
         inaccuracy: 6
         shake: 2
@@ -31,6 +32,7 @@ weapons: [
             bulletSprite: missile
             lifetime: 80
             speed: 4
+            hitEffect:blastExplosion
             splashDamageRadius: 10
             splashDamage: 34
             homingPower: 3

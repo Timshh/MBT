@@ -10,12 +10,14 @@ weapons: [
         reload: 9
         x: 5
         y: 0
+        shootSound: missile
         top: false
         bullet: {
             type: MissileBulletType
             bulletSprite: missile
             lifetime: 80
             speed: 3
+            hitEffect:blastExplosion
             splashDamageRadius: 20
             splashDamage: 5
             homingPower: 2

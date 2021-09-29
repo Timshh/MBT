@@ -41,6 +41,7 @@ weapons: [
                 trailEffect: incendTrail
                 trailParam: 1
                 trailColor: ffffffff
+                hitEffect:blastExplosion
             }
         }
     },
@@ -55,7 +56,7 @@ weapons: [
         bullet: {
             type: RailBulletType
             updateEffect: railTrail
-            length: 350
+            length: 550
             damage: 2250
         }
         hitEffect: railHit
@@ -64,9 +65,9 @@ weapons: [
 abilities: [
   {
     type: ForceFieldAbility
-    radius: 25
-    regen: 5
-    max: 2000
+    radius: 30
+    regen: 20
+    max: 7500
     cooldown: 90
   }
 ]
