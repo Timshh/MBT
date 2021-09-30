@@ -14,24 +14,25 @@ weapons: [
     reload: 110
     minShootVelocity: 1.0
     bullet: {
-      damage: 0
-      speed: 0
-      splashDamage: 1400
-      splashDamageRadius: 120
-      hittable: false
-      absorbable: false
-      collides: false
-      collidesTiles: false
-      lifetime: 45
-      sprite: large-bomb
-      width: 5
-      height: 5
-      frontColor: fffffff
-      backColor: e65555
-      lightColor: e65555
-      shrinkY: 0.6
-      shrinkX: 0.6
-      spin: 1
-      keepVelocity: false
+        damage: 0
+        speed: 0
+        splashDamage: 1400
+        splashDamageRadius: 120
+        hittable: false
+        absorbable: false
+        collides: false
+        collidesTiles: false
+        lifetime: 45
+        sprite: large-bomb
+        width: 5
+        height: 5
+        frontColor: fffffff
+        backColor: e65555
+        lightColor: e65555
+        shrinkY: 0.6
+        shrinkX: 0.6
+        spin: 1
+        keepVelocity: false
+        }
     }
 ]
