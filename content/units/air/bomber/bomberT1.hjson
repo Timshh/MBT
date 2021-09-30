@@ -5,6 +5,7 @@ speed: 2.4
 accel: 0.25
 drag: 0.01
 weapons(
+    [
     name: bomberT1Gun
     x: 0
     y: -20
@@ -33,4 +34,5 @@ weapons(
       shrinkX: 0.6
       spin: 3
       keepVelocity: false
+    ]
 )
