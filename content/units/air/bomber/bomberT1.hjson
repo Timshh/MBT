@@ -4,7 +4,7 @@ health: 130
 speed: 2.4
 accel: 0.25
 drag: 0.01
-weapons[
+weapons: [
     {
     name: bomberT1Gun
     x: 0
@@ -34,4 +34,4 @@ weapons[
       spin: 1
       keepVelocity: false
     }
-    ]
+]
