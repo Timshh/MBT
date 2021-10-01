@@ -8,7 +8,7 @@ weapons: [
     {
     name: bomberT1Gun
     x: 0
-    y: -20
+    y: -5
     ignoreRotation: true
     shootCone: 360
     reload: 110
@@ -16,16 +16,16 @@ weapons: [
     bullet: {
         damage: 0
         speed: 0
-        splashDamage: 1400
-        splashDamageRadius: 120
+        splashDamage: 100
+        splashDamageRadius: 40
         hittable: false
         absorbable: false
         collides: false
         collidesTiles: false
-        lifetime: 45
+        lifetime: 60
         sprite: large-bomb
-        width: 15
-        height: 15
+        width: 20
+        height: 20
         frontColor: fffffff
         backColor: e65555
         lightColor: e65555
