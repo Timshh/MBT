@@ -8,7 +8,7 @@ weapons: [
     {
     name: bomberT1Gun
     x: 0
-    y: -5
+    y: -6
     ignoreRotation: true
     shootCone: 360
     reload: 110
@@ -16,8 +16,8 @@ weapons: [
     bullet: {
         damage: 0
         speed: 0
-        splashDamage: 50
-        splashDamageRadius: 30
+        splashDamage: 216
+        splashDamageRadius: 50
         hittable: false
         absorbable: false
         collides: false
