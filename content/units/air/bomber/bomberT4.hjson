@@ -7,7 +7,7 @@ accel: 0.25
 drag: 0.01
 weapons: [
     {
-    name: bomber-T2-gun1
+    name: bomber-T4-gun1
     reload: 70
     x: 2
     y: -4

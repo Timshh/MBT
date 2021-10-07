@@ -7,7 +7,7 @@ accel: 0.25
 drag: 0.01
 weapons: [
     {
-    name: bomberT1Gun
+    name: bomberT3Gun
     x: 0
     y: -6
     ignoreRotation: true

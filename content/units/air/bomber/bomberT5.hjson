@@ -1,0 +1,66 @@
+type: flying
+flying: true
+health: 4800
+speed: 2
+armor: 5
+accel: 0.25
+drag: 0.01
+weapons: [
+    {
+    name: bomber-T5-gun1
+    reload: 70
+    x: 3
+    y: -3
+    top: true
+    rotate: true
+    inaccuracy: 5
+    shots: 5
+    shotDelay: 3
+    shootCone: 360
+    controllable: false
+    autoTarget: true
+    recoil: 4
+    bullet: {
+        type: BasicBulletType
+            bulletSprite: bullet
+            lifetime: 80
+            speed: 3
+            damage: 180
+            width: 8
+            height: 20
+            frontColor: f8ad42
+            backColor: f68021
+        }
+    },
+    {
+    name: bomber-T5-Gun2
+    x: 0
+    y: -6
+    ignoreRotation: true
+    shootCone: 360
+    reload: 200
+    minShootVelocity: 1.0
+    bullet: {
+        damage: 0
+        speed: 0
+        splashDamage: 800
+        splashDamageRadius: 80
+        hittable: false
+        absorbable: false
+        collides: false
+        collidesTiles: false
+        lifetime: 60
+        sprite: large-bomb
+        width: 25
+        height: 25
+        frontColor: fffffff
+        backColor: e65555
+        lightColor: e65555
+        shrinkY: 0.6
+        shrinkX: 0.6
+        spin: 1
+        hitEffect:massiveExplosion
+        keepVelocity: false
+        }
+    }
+]
