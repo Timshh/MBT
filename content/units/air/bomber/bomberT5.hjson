@@ -15,7 +15,6 @@ weapons: [
     rotate: true
     inaccuracy: 5
     shots: 6
-    shootSound: plasmadrop
     shotDelay: 4
     shootCone: 360
     controllable: false
@@ -40,6 +39,7 @@ weapons: [
     ignoreRotation: true
     shootCone: 360
     reload: 250
+    shootSound: plasmadrop
     minShootVelocity: 1.0
     bullet: {
         damage: 0
@@ -59,6 +59,7 @@ weapons: [
         lightColor: e65555
         shrinkY: 0.6
         shrinkX: 0.6
+        hitSound: plasmaboom
         spin: 1
         hitEffect:massiveExplosion
         keepVelocity: false
