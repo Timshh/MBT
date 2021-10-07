@@ -15,7 +15,7 @@ ammoTypes: {
   thoriumPackage: {
     type: ArtilleryBulletType
     bulletSprite: bullet
-    trailMult: 15
+    trailMult: 4
     trailSize: 10
     speed: 3
     width: 15

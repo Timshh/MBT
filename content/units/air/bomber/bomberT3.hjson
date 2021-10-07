@@ -17,7 +17,7 @@ weapons: [
     bullet: {
         damage: 0
         speed: 0
-        splashDamage: 216
+        splashDamage: 294
         splashDamageRadius: 50
         hittable: false
         absorbable: false
