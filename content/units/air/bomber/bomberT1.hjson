@@ -9,6 +9,7 @@ weapons: [
     name: bomberT1Gun
     x: 0
     y: -2
+    shootSound: none
     ignoreRotation: true
     shootCone: 360
     reload: 110

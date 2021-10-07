@@ -15,6 +15,7 @@ weapons: [
     rotate: true
     inaccuracy: 5
     shots: 6
+    shootSound: plasmadrop
     shotDelay: 4
     shootCone: 360
     controllable: false
