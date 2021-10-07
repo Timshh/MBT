@@ -24,8 +24,8 @@ weapons: [
         collidesTiles: false
         lifetime: 60
         sprite: large-bomb
-        width: 20
-        height: 20
+        width: 10
+        height: 10
         frontColor: fffffff
         backColor: e65555
         lightColor: e65555
