@@ -12,7 +12,7 @@ weapons: [
     y: -6
     ignoreRotation: true
     shootSound: missile
-    shootCone: 360
+    shootCone: 360 
     reload: 110
     minShootVelocity: 1.0
     bullet: {
