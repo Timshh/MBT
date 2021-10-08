@@ -9,7 +9,7 @@ weapons: [
     {
     name: bomber-T4-gun1
     reload: 70
-    x: 2
+    x: 3
     y: -4
     top: true
     rotate: true
@@ -19,7 +19,6 @@ weapons: [
     shootCone: 360
     controllable: false
     autoTarget: true
-    recoil: 4
     bullet: {
         type: BasicBulletType
             bulletSprite: bullet
