@@ -34,8 +34,8 @@ weapons: [
     },
     {
     name: bomber-T5-Gun2
-    x: 0
-    y: -6
+    x: 3
+    y: 1
     ignoreRotation: true
     shootCone: 360
     reload: 250
