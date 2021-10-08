@@ -39,6 +39,7 @@ weapons: [
     name: bomber-T5-Gun2
     x: 6
     y: 3
+    top: true
     ignoreRotation: true
     shootCone: 360
     reload: 250
