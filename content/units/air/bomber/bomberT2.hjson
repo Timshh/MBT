@@ -4,6 +4,7 @@ health: 650
 speed: 2
 armor: 3
 accel: 0.25
+rotateShooting: false
 drag: 0.01
 weapons: [
     {

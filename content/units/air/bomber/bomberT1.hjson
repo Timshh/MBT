@@ -3,6 +3,7 @@ flying: true
 health: 130
 speed: 2.4
 accel: 0.25
+rotateShooting: false
 drag: 0.01
 weapons: [
     {
