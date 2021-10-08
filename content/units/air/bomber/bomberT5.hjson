@@ -12,8 +12,8 @@ weapons: [
     {
     name: bomber-T5-gun1
     reload: 70
-    x: 3
-    y: -3
+    x: 6
+    y: -7
     top: true
     rotate: true
     inaccuracy: 5
@@ -37,8 +37,8 @@ weapons: [
     },
     {
     name: bomber-T5-Gun2
-    x: 3
-    y: 1
+    x: 6
+    y: 3
     ignoreRotation: true
     shootCone: 360
     reload: 250
