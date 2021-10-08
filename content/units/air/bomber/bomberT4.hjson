@@ -9,7 +9,7 @@ weapons: [
     {
     name: bomber-T4-gun1
     reload: 70
-    x: 3
+    x: 4
     y: -4
     top: true
     rotate: true
