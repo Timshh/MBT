@@ -36,7 +36,7 @@ weapons: [
         }
     },
     {
-    name: bomber-T5-Gun2
+    name: bomber-T5-gun2
     x: 6
     y: 3
     top: true
