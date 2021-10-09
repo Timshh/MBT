@@ -2,7 +2,6 @@ type: flying
 flying: true
 health: 10000
 speed: 2
-lowAltitude: true
 armor: 8
 accel: 0.25
 drag: 0.01
