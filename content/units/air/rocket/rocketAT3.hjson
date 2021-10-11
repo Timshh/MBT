@@ -1,26 +1,27 @@
 type: flying
 flying: true
-health: 130
-speed: 2.8
+health: 850
+armor: 5
+speed: 2.4
 accel: 0.25
 rotateShooting: true
 drag: 0.01
 weapons: [
     {
-    name: rocketT1Gun
-    x: 0
-    y: -2
+    name: rocket-AT3-gun1
+    x: 4
+    y: -3
     shootSound: missile
-    reload: 100
+    reload: 125
     bullet: {
         type: MissileBulletType
         bulletSprite: missile
-        damage: 20
-        speed: 2
-        drag: -0.03
-        splashDamage: 40
-        splashDamageRadius: 10
-        lifetime: 75
+        damage: 50
+        speed: 1
+        drag: -0.04
+        splashDamage: 125
+        splashDamageRadius:30
+        lifetime: 85
         frontColor: fffffff
         backColor: e65555
         hitEffect:blastExplosion
