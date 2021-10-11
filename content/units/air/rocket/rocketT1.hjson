@@ -11,13 +11,14 @@ weapons: [
     x: 0
     y: -2
     shootSound: missile
-    reload: 40
+    reload: 100
     bullet: {
         type: MissileBulletType
         bulletSprite: missile
-        damage: 10
-        speed: 4
-        splashDamage: 20
+        damage: 20
+        speed: 3
+        drag: -0.01
+        splashDamage: 40
         splashDamageRadius: 10
         lifetime: 60
         frontColor: fffffff
