@@ -7,7 +7,7 @@ rotateShooting: true
 drag: 0.01
 weapons: [
     {
-    name: bomberT1Gun
+    name: rocketT1Gun
     x: 0
     y: -2
     shootSound: missile
@@ -20,7 +20,7 @@ weapons: [
         drag: -0.03
         splashDamage: 40
         splashDamageRadius: 10
-        lifetime: 60
+        lifetime: 75
         frontColor: fffffff
         backColor: e65555
         hitEffect:blastExplosion

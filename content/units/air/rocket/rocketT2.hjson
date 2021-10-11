@@ -1,33 +1,28 @@
 type: flying
 flying: true
 health: 650
-speed: 2
+speed: 2.6
 armor: 3
 accel: 0.25
 rotateShooting: false
-drag: 0.01
 weapons: [
     {
-    name: bomber-T2-gun1
-    reload: 30
-    x: 4
-    y: -3
-    top: true
-    rotate: true
-    inaccuracy: 5
-    shots: 3
-    shotDelay: 1.5
-    shootCone: 360
-    controllable: false
-    autoTarget: true
+    name: rocketT1Gun
+    x: 3
+    y: -1
+    shootSound: missile
+    reload: 10
     bullet: {
-        type: BasicBulletType
-            bulletSprite: bullet
-            lifetime: 80
-            speed: 3
-            damage: 20
-            frontColor: f8ad42
-            backColor: f68021
+        type: MissileBulletType
+        bulletSprite: missile
+        damage: 5
+        speed: 3
+        splashDamage: 10
+        splashDamageRadius: 10
+        lifetime: 70
+        frontColor: fffffff
+        backColor: e65555
+        hitEffect:blastExplosion
         }
     }
 ]
