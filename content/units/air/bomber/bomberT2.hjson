@@ -1,7 +1,7 @@
 type: flying
 flying: true
 health: 650
-speed: 2
+speed: 2.3
 armor: 3
 accel: 0.25
 rotateShooting: false

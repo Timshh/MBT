@@ -1,0 +1,29 @@
+type: flying
+flying: true
+health: 130
+speed: 2.8
+accel: 0.25
+rotateShooting: false
+drag: 0.01
+weapons: [
+    {
+    name: bomberT1Gun
+    x: 0
+    y: -2
+    shootSound: missile
+    reload: 40
+    bullet: {
+        type: MissileBulletType
+        bulletSprite: missile
+        damage: 10
+        speed: 0
+        splashDamage: 20
+        splashDamageRadius: 10
+        lifetime: 60
+        frontColor: fffffff
+        backColor: e65555
+        spin: 1
+        hitEffect:blastExplosion
+        }
+    }
+]
