@@ -19,7 +19,7 @@ weapons: [
         type: MissileBulletType
         bulletSprite: missile
         damage: 500
-        speed: 0.1
+        speed: 0.5
         drag: -0.05
         splashDamage: 200
         splashDamageRadius: 40
