@@ -20,7 +20,7 @@ weapons: [
         bulletSprite: missile
         damage: 500
         speed: 0.5
-        drag: -0.05
+        drag: -0.04
         splashDamage: 200
         splashDamageRadius: 40
         lifetime: 90
