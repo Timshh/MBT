@@ -9,4 +9,4 @@ const T1arocket = extend(UnitType, "T1arocket", {
 	}
 });
 
-t3A_copter.constructor = () => extend(UnitEntity, {});
+T1arocket = () => extend(UnitEntity, {});
