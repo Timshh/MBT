@@ -9,4 +9,4 @@ const T1arocket = extend(UnitType, "T1arocket", {
 	}
 });
 
-T1arocket = () => extend(UnitEntity, {});
+T1arocket.constructor = () => extend(UnitEntity, {});
