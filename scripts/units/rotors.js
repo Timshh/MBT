@@ -8,3 +8,5 @@ const T1arocket = extend(UnitType, "T1arocket", {
 			Time.time * -15);
 	}
 });
+
+t3A_copter.constructor = () => extend(UnitEntity, {});
