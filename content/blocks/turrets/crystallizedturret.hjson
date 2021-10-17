@@ -27,7 +27,7 @@ requirements:[
   steel/200
   //need to place spores here
 ]
-targetAir: false
+targetAir: true
 targetGround: true
 category: turret
 research:swarmer
