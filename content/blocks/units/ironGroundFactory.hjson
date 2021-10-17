@@ -20,6 +20,14 @@ plans: [
         time: 600
     },
     {
+        unit:T1arocket
+        requirements: [
+            iron/15
+            copper/20
+        ]
+        time: 600
+    },
+    {
         unit:T1Shotgun
         requirements: [
             iron/15
