@@ -6,6 +6,8 @@ speed: 2.4
 accel: 0.25
 rotateShooting: true
 drag: 0.01
+engineOffset: 0
+engineSize: 0
 weapons: [
     {
     name: rocket-AT3-gun1
