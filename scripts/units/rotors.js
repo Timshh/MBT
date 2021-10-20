@@ -15,7 +15,7 @@ const T2arocket = extend(UnitType, "T2arocket", {
 			"mbt-T2arocket-rotor",
 			unit.x + Angles.trnsx(unit.rotation - 180, 0, 0),
 			unit.y + Angles.trnsy(unit.rotation - 180, 0, 0),
-			Time.time * -20);
+			Time.time * -17.5);
 	}
 });
 const T3arocket = extend(UnitType, "T3arocket", {
@@ -35,7 +35,7 @@ const T4arocket = extend(UnitType, "T4arocket", {
 			"mbt-T4arocket-rotor",
 			unit.x + Angles.trnsx(unit.rotation - 90, 0, 0),
 			unit.y + Angles.trnsy(unit.rotation - 90, 0, 0),
-			Time.time * -15);
+			Time.time * -12.5);
 	}
 });
 const T5arocket = extend(UnitType, "T5arocket", {
@@ -45,7 +45,7 @@ const T5arocket = extend(UnitType, "T5arocket", {
 			"mbt-T5arocket-rotor",
 			unit.x + Angles.trnsx(unit.rotation - 90, 0, 0),
 			unit.y + Angles.trnsy(unit.rotation - 90, 0, 0),
-			Time.time * -15);
+			Time.time * -10);
 	}
 });
 
