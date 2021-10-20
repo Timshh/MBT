@@ -38,8 +38,19 @@ const T4arocket = extend(UnitType, "T4arocket", {
 			Time.time * -15);
 	}
 });
+const T5arocket = extend(UnitType, "T5arocket", {
+	draw(unit) {
+		this.super$draw(unit);
+		Draw.rect(
+			"mbt-T5arocket-rotor",
+			unit.x + Angles.trnsx(unit.rotation - 90, 0, 0),
+			unit.y + Angles.trnsy(unit.rotation - 90, 0, 0),
+			Time.time * -15);
+	}
+});
 
 T1arocket.constructor = () => extend(UnitEntity, {});
 T2arocket.constructor = () => extend(UnitEntity, {});
 T3arocket.constructor = () => extend(UnitEntity, {});
 T4arocket.constructor = () => extend(UnitEntity, {});
+T5arocket.constructor = () => extend(UnitEntity, {});
