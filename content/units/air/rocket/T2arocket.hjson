@@ -5,6 +5,8 @@ speed: 2.6
 armor: 3
 accel: 0.25
 rotateShooting: true
+engineOffset: 0
+engineSize: 0
 weapons: [
     {
     name: rocket-AT2-gun1

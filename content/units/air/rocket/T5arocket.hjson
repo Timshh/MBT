@@ -5,9 +5,9 @@ speed: 2
 armor: 8
 accel: 0.25
 drag: 0.01
-engineOffset: 12
 rotateShooting: true
-engineSize: 3
+engineOffset: 0
+engineSize: 0
 weapons: [
     {
     name: rocket-AT5-gun1
