@@ -1,6 +1,6 @@
 type: flying
 flying: true
-health: 120
+health: 100
 speed: 2.4
 accel: 0.25
 rotateShooting: false

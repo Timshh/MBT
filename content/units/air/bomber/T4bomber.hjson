@@ -1,6 +1,6 @@
 type: flying
 flying: true
-health: 4800
+health: 4000
 speed: 2.1
 armor: 5
 accel: 0.25
@@ -25,7 +25,7 @@ weapons: [
             bulletSprite: bullet
             lifetime: 80
             speed: 3
-            damage: 135
+            damage: 150
             width: 6
             height: 15
             frontColor: f8ad42

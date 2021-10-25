@@ -1,6 +1,6 @@
 type: flying
 flying: true
-health: 4800
+health: 4000
 speed: 2
 armor: 5
 accel: 0.25
@@ -18,10 +18,10 @@ weapons: [
     bullet: {
         type: MissileBulletType
         bulletSprite: missile
-        damage: 510
+        damage: 300
         speed: 3
-        splashDamage: 25
-        splashDamageRadius: 15
+        splashDamage: 30
+        splashDamageRadius: 20
         lifetime: 75
         frontColor: fffffff
         backColor: e65555
