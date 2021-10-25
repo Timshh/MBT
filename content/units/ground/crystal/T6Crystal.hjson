@@ -16,7 +16,7 @@ weapons: [
     {
     mirror: false
     top: false
-    firstShotDelay: 150
+    firstShotDelay: 200
     shake: 6
     shootY: 11
     recoil: 0
