@@ -24,7 +24,7 @@ weapons: [
     shootSound: HEAVY CANON ATT v2
     x: 0
     y: 0
-    reload: 155
+    reload: 300
     continuous: true
     cooldownTime: 200
     bullet: {
