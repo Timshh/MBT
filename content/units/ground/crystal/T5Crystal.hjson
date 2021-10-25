@@ -1,7 +1,7 @@
 type: legs
 description: new test units.
 speed: 0.9
-health: 12000
+health: 10000
 legCount:4
 legLength: 17
 legTrns: 0.9
@@ -28,7 +28,7 @@ weapons: [
     cooldownTime: 200
     bullet: {
         type: ContinuousLaserBulletType
-        damage: 50
+        damage: 60
         length: 200
         color: 66ffffff
         drawSize: 250
@@ -70,7 +70,7 @@ weapons: [
         speed: 4
         homingPower: 1
         homingRange: 230
-        damage: 100
+        damage: 120
         weaveScale: 40
         weaveMag: 2.5
         trailColor: 66ffffff

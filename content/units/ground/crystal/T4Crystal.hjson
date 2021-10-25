@@ -1,7 +1,7 @@
 type: legs
 description: new test units.
 speed: 1
-health: 875
+health: 3000
 legCount:4
 legLength: 14
 legTrns: 0.8
@@ -23,12 +23,12 @@ weapons: [
     shootSound: HEAVY CANON ATT v1
     x: 0
     y: 0
-    reload: 155
+    reload: 150
     continuous: true
     cooldownTime: 150
     bullet: {
         type: ContinuousLaserBulletType
-        damage: 15
+        damage: 20
         length: 200
         color: 66ffffff
         drawSize: 250

@@ -1,7 +1,7 @@
 type: mech
 description: new test units.
 speed: 0.9
-health: 700
+health: 500
 armor: 3
 weapons: [
     {
@@ -14,7 +14,7 @@ weapons: [
     reload: 80
     bullet: {
         type: LaserBulletType
-        damage: 90
+        damage: 120
         lifetime: 60
         length: 100
         width: 12

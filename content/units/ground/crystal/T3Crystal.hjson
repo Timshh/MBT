@@ -1,7 +1,7 @@
 type: legs
 description: new test units.
 speed: 1
-health: 875
+health: 700
 legCount:4
 legLength: 14
 legTrns: 0.8
@@ -32,7 +32,7 @@ weapons: [
         speed: 4
         homingPower: 1
         homingRange: 230
-        damage: 25
+        damage: 40
         weaveScale: 10
         weaveMag: 2.5
         trailColor: 66ffffff

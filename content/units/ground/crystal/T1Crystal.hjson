@@ -1,7 +1,7 @@
 type: mech
 description: new test units.
 speed: 0.9
-health: 230
+health: 200
 armor: 0
 weapons: [
     {
@@ -19,7 +19,7 @@ weapons: [
         speed: 3
         homingPower: 1
         homingRange: 230
-        damage: 3
+        damage: 10
         weaveScale: 5
         weaveMag: 2.0
         trailColor: 66ffffff
