@@ -30,7 +30,7 @@ weapons: [
     bullet: {
         type: ContinuousLaserBulletType
         shootEffect: greenLaserChargeSmall
-        damage: 200
+        damage: 900
         length: 250
         color: 66ffffff
         drawSize: 300
@@ -70,7 +70,7 @@ weapons: [
         speed: 3
         homingPower: 1
         homingRange: 250
-        damage: 200
+        damage: 100
         weaveScale: 45
         weaveMag: 2.5
         trailColor: 66ffffff
