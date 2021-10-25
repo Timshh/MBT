@@ -33,11 +33,11 @@ weapons: [
             homingPower: 2
             homingRange: 40
             damage: 100
-            shake: 3
+            shake: 4
             frontColor: f8ad42
             backColor: f68021
             inaccuracy: 3
-            fragBullets:20
+            fragBullets:22
             fragLifeMin:0
             fragCone:360
             hitEffect:blastExplosion
@@ -46,7 +46,7 @@ weapons: [
                 width: 3
                 lifetime:35
                 hitEffect:blastExplosion
-                splashDamage:60
+                splashDamage:65
                 splashDamageRadius:15
         }
     }
@@ -73,7 +73,7 @@ weapons: [
             splashDamage: 75
             homingPower: 5
             homingRange: 75
-            damage: 50
+            damage: 75
             frontColor: f8ad42
             backColor: f68021
         }

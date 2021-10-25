@@ -2,7 +2,7 @@ type: mech
 name:lancelot
 description: light rocketgun unit with shotguns and burst launchers
 speed: 1
-health: 800
+health: 700
 armor: 5
 canBoost: true
 boostMultiplier: 1.5
@@ -14,7 +14,7 @@ weapons: [
         y: -6
         shootSound: missile
         top: false
-        shots: 5
+        shots: 6
         shotDelay: 2
         inaccuracy: 12
         xRand: 5
@@ -30,7 +30,7 @@ weapons: [
                 type: MissileBulletType
                 bulletSprite: missile
                 lifetime: 75
-                speed: 3
+                speed: 4
                 splashDamageRadius: 20
                 splashDamage: 6
                 homingPower: 2
@@ -58,7 +58,7 @@ weapons: [
             bulletSprite: bullet
             lifetime: 80
             speed: 3
-            damage: 5
+            damage: 7
             status:slow
         }
     }

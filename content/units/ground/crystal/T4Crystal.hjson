@@ -1,7 +1,7 @@
 type: legs
 description: new test units.
 speed: 1
-health: 3000
+health: 4000
 legCount:4
 legLength: 14
 legTrns: 0.8

@@ -2,7 +2,7 @@ type: mech
 name:lancer
 description: rocketgun unit with minigun and casset launchers
 speed: 1
-health: 5200
+health: 4000
 armor: 5
 canBoost: true
 boostMultiplier: 1.5
@@ -10,7 +10,7 @@ weapons: [
     {
         name: rocketgun-T4-gun1
         reload: 2
-        shots: 4
+        shots: 4.5
         shotDelay: 2
         x: 8
         y: -1
@@ -22,7 +22,7 @@ weapons: [
             bulletSprite: bullet
             lifetime: 80
             speed: 3
-            damage: 10
+            damage: 15
             frontColor: f8ad42
             backColor: f68021
         }
@@ -44,7 +44,7 @@ weapons: [
         speed: 3
         homingPower: 2
         homingRange: 40
-        damage: 80
+        damage: 100
         frontColor: f8ad42
         backColor: f68021
         inaccuracy: 1

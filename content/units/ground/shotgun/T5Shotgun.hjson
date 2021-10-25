@@ -14,7 +14,7 @@ weapons: [
         y: -10
         controllable: false
         autoTarget: true
-        shots: 5
+        shots: 6
         shotDelay: 2
         inaccuracy: 10
         xRand: 2
@@ -32,7 +32,7 @@ weapons: [
     },
     {
         name: shotgun-T5-gun2
-        reload: 15
+        reload: 10
         x: 10
         y: 4
         inaccuracy: 4

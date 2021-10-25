@@ -14,7 +14,7 @@ weapons: [
         y: -6
         shootSound: missile
         top: false
-        shots: 15
+        shots: 17
         shotDelay: 2
         inaccuracy: 30
         xRand: 5
@@ -30,14 +30,14 @@ weapons: [
                 type: MissileBulletType
                 bulletSprite: missile
                 lifetime: 75
-                speed: 3
+                speed: 4
                 splashDamageRadius: 20
                 splashDamage: 50
                 homingPower: 2
                 homingRange: 100
                 speed: 2
                 drag:-0.01
-                damage: 100
+                damage: 125
                 trailEffect: incendTrail
                 trailParam: 1
                 trailColor: ffffffff
@@ -57,7 +57,7 @@ weapons: [
             type: RailBulletType
             updateEffect: railTrail
             length: 550
-            damage: 2250
+            damage: 2350
         }
         hitEffect: railHit
     }

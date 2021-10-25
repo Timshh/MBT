@@ -22,7 +22,7 @@ weapons: [
             splashDamage: 5
             homingPower: 2
             homingRange: 40
-            damage: 3
+            damage: 7
             frontColor: f8ad42
             backColor: f68021
             inaccuracy: 3

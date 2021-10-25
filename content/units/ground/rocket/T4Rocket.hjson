@@ -2,7 +2,7 @@ type: legs
 name: valkyre
 description: heavy rocket unit with heavy casset launcher.
 speed: 0.8
-health: 4800
+health: 4000
 armor: 5
 legCount: 4
 legLength: 9

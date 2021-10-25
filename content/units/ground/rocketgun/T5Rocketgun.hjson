@@ -14,7 +14,7 @@ weapons: [
         y: -6
         shootSound: missile
         top: false
-        shots: 6
+        shots: 8
         shotDelay: 2
         inaccuracy: 30
         xRand: 5
@@ -23,7 +23,7 @@ weapons: [
             bulletSprite: bullet
             lifetime: 20
             speed: 0.4
-            damage: 50
+            damage: 60
             fragBullets: 1
             fragCone: 0
             fragBullet: {
@@ -50,7 +50,7 @@ weapons: [
         reload: 40
         x: 9
         y: 5
-        shots: 6
+        shots: 7
         top: false
         inaccuracy: 30
         bullet: {

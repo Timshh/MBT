@@ -42,7 +42,7 @@ weapons: [
             type: RailBulletType
             updateEffect: railTrail
             length: 325
-            damage: 2000
+            damage: 2100
         }
         hitEffect: railHit
     }

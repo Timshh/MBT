@@ -32,7 +32,7 @@ weapons: [
         speed: 3
         homingPower: 2
         homingRange: 40
-        damage: 60
+        damage: 100
         shake: 3
         frontColor: f8ad42
         backColor: f68021
@@ -46,7 +46,7 @@ weapons: [
             width: 3
             hitEffect:blastExplosion
             lifetime:40
-            splashDamage:40
+            splashDamage:60
             splashDamageRadius:10
         }
     }
@@ -66,10 +66,10 @@ weapons: [
         hitEffect:blastExplosion
         speed: 4
         splashDamageRadius: 25
-        splashDamage: 60
+        splashDamage: 80
         homingPower: 3
         homingRange: 60
-        damage: 35
+        damage: 50
         frontColor: f8ad42
         backColor: f68021
         }

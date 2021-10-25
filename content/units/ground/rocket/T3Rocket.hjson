@@ -2,7 +2,7 @@ type: legs
 name:fury
 description: rocket unit with 2 heavy launchers.
 speed: 1.1
-health: 875
+health: 650
 armor: 5
 legCount: 4
 drag:0.4

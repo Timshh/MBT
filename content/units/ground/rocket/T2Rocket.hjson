@@ -2,7 +2,7 @@ type: mech
 name: 
 description: rocket unit with 2 casset rocket launchers
 speed: 0.9
-health: 640
+health: 490
 armor: 3
 weapons: [
     {
