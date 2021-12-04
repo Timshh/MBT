@@ -4,7 +4,7 @@ description: Heavy nuclear-based artillery turret.
 health: 750
 size: 2
 shotWidth: 10
-burstSpacing: 3
+burstSpacing: 7
 reloadTime: 300
 shots: 4
 range: 500
