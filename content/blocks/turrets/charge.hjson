@@ -6,11 +6,11 @@ size: 2
 shotWidth: 10
 burstSpacing: 3
 reloadTime: 300
-shots: 10
+shots: 4
 range: 500
 inaccuracy: 2
-shake: 0.3
-rotatespeed: 40
+shake: 2
+rotatespeed: 25
 ammoTypes: {
   thoriumPackage: {
     type: ArtilleryBulletType
@@ -19,16 +19,16 @@ ammoTypes: {
     trailSize: 10
     speed: 3
     width: 15
-    splashDamageRadius: 60
-    splashDamage: 60
+    splashDamageRadius: 100
+    splashDamage: 250
     status: shocked
     height: 15
-    damage: 40
+    damage: 100
     hitEffect:blastExplosion
   }
 }
-ammoPerShot: 5
-maxAmmo: 30
+ammoPerShot: 4
+maxAmmo: 32
 requirements:[
   steel/200
   thorium/250
