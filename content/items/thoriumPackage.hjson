@@ -1,7 +1,7 @@
 type: Material
 name: Thorium package
 description: Radioactive explosive package.
-radioactivity: 1
-charge: 0.1
-explosiveness: 5
+radioactivity: 2.5
+charge: 2
+explosiveness: 7.5
 color: 800040ff
