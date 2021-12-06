@@ -8,7 +8,7 @@ burstSpacing:12.5
 reloadTime: 300
 shots: 4
 range: 500
-inaccuracy: 2
+inaccuracy: 1
 shake: 2
 rotatespeed: 25
 ammoTypes: {
