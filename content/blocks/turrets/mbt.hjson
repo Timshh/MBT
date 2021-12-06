@@ -7,7 +7,7 @@ shotWidth: 10
 burstSpacing: 5
 reloadTime: 100
 shots: 8
-range: 300
+range: 350
 inaccuracy: 5
 xRand: 4
 rotatespeed: 40
@@ -21,10 +21,10 @@ ammoTypes: {
     trailSize: 1
     drag:-0.02
     splashDamageRadius: 20
-    splashDamage: 3
+    splashDamage: 30
     homingPower: 2
     homingRange: 40
-    damage: 2
+    damage: 20
   }
   blast-compound: {
     type: MissileBulletType
@@ -32,16 +32,29 @@ ammoTypes: {
     lifetime: 70
     speed: 3
     drag:-0.01
-    splashDamageRadius: 10
-    splashDamage: 40
+    splashDamageRadius: 25
+    splashDamage: 60
     homingPower: 3
     homingRange: 50
-    damage: 20
+    damage: 40
+  }
+  thoriumPackage: {
+    type: MissileBulletType
+    bulletSprite: missile
+    lifetime: 75
+    status: shocked
+    speed: 3
+    drag:-0.1
+    splashDamageRadius: 50
+    splashDamage: 75
+    homingPower: 4
+    homingRange: 75
+    damage: 60
   }
   cryoPackage: {
     type: MissileBulletType
     bulletSprite: missile
-    lifetime: 50
+    lifetime: 65
     speed: 4
     splashDamageRadius: 100
     status: freezing
@@ -53,7 +66,7 @@ ammoTypes: {
   waterPackage: {
     type: MissileBulletType
     bulletSprite: missile
-    lifetime: 50
+    lifetime: 65
     speed: 4
     splashDamageRadius: 100
     status: wet
@@ -65,7 +78,7 @@ ammoTypes: {
   oilPackage: {
     type: MissileBulletType
     bulletSprite: missile
-    lifetime: 50
+    lifetime: 65
     speed: 4
     splashDamageRadius: 100
     status: tarred
@@ -77,7 +90,7 @@ ammoTypes: {
   highVoltagePackage: {
     type: MissileBulletType
     bulletSprite: missile
-    lifetime: 50
+    lifetime: 65
     speed: 4
     splashDamageRadius: 100
     status: shocked
