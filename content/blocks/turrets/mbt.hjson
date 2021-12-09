@@ -20,7 +20,7 @@ ammoTypes: {
     trailMult: 0.1
     trailSize: 1
     drag:-0.02
-    splashDamageRadius: 20
+    splashDamageRadius: 10
     splashDamage: 30
     homingPower: 2
     homingRange: 40
@@ -32,7 +32,7 @@ ammoTypes: {
     lifetime: 70
     speed: 3
     drag:-0.01
-    splashDamageRadius: 25
+    splashDamageRadius: 20
     splashDamage: 60
     homingPower: 3
     homingRange: 50
@@ -45,7 +45,7 @@ ammoTypes: {
     status: shocked
     speed: 3
     drag:-0.01
-    splashDamageRadius: 50
+    splashDamageRadius: 30
     splashDamage: 75
     homingPower: 4
     homingRange: 75
