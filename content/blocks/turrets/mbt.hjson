@@ -44,7 +44,7 @@ ammoTypes: {
     lifetime: 75
     status: shocked
     speed: 3
-    drag:-0.1
+    drag:-0.01
     splashDamageRadius: 50
     splashDamage: 75
     homingPower: 4
