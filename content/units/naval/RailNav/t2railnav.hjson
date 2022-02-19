@@ -1,0 +1,30 @@
+type: naval
+speed: 1.4
+drag: 0.13
+hitSize: 10
+health: 700
+accel: 0.4
+rotateSpeed: 3.3
+trailLength: 20
+rotateShooting: true
+armor: 2
+weapons: [
+    {
+    name: t2railnav-gun
+    reload: 120
+    x: 0
+    y: -5
+    rotate: true
+    mirror: false
+    inaccuracy: 1
+    bullet: {
+        type: BasicBulletType
+        bulletSprite: bullet
+        lifetime: 80
+        speed: 5.5
+        damage: 225
+        frontColor: b116db
+        backColor: 752c8a
+    }
+    }
+]

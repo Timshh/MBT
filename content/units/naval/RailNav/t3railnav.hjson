@@ -1,0 +1,33 @@
+type: naval
+speed: 1.35
+drag: 0.13
+hitSize: 10
+health: 1000
+accel: 0.8
+rotateSpeed: 3.3
+trailLength: 30
+rotateShooting: true
+armor: 5
+weapons: [
+    {
+    name: t3railnav-gun
+    reload: 3
+    x: 0
+    y: -5
+    rotate: true
+    mirror: false
+    inaccuracy: 2
+    xRand: 2
+    bullet: {
+        type: BasicBulletType
+        bulletSprite: bullet
+        lifetime: 80
+        speed: 5.5
+        width: 8
+        height: 8
+        damage: 20
+        frontColor: b116db
+        backColor: 752c8a
+    }
+    }
+]
