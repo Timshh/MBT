@@ -9,7 +9,4 @@ trailLength: 20
 rotateShooting: true
 armor: 2
 clipsize: 100    
-bullet: {
-    type: PowerBulletType
-    damage: 25
-}
+ammoType: PowerAmmoType(3500)
