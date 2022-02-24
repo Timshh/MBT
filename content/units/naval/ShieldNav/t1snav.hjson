@@ -1,0 +1,15 @@
+type: naval
+speed: 1.5
+drag: 0.13
+hitSize: 10
+health: 400
+accel: 0.4
+rotateSpeed: 3.3
+trailLength: 20
+rotateShooting: true
+armor: 2
+clipsize: 100    
+bullet: {
+    type: PowerBulletType
+    damage: 25
+}

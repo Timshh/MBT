@@ -1,0 +1,59 @@
+type: naval
+speed: 1.2
+drag: 0.4
+hitSize: 25
+health: 25000
+accel: 2
+rotateSpeed: 3.3
+trailLength: 60
+rotateShooting: true
+armor: 12
+weapons: [
+    {
+    name: t6railnav-gun
+    reload: 250
+    x: 0
+    y: -9
+    rotate: true
+    mirror: false
+    inaccuracy: 0
+    shake: 7
+    shootY:20
+    shootSound: railgun
+        bullet: {
+            type: RailBulletType
+            updateEffect: railTrail
+            length: 1200
+            damage: 4000
+            splashDamage:2500
+            splashDamageRadius:45
+        }
+        hitEffect: railHit
+    },
+    {
+    name: t6railnav-gun2
+    reload: 7.5
+    x: 0
+    y: 9
+    controllable: false
+    autoTarget: true
+    rotate: true
+    shootcone:30
+    mirror: false
+    inaccuracy: 0.25
+    xRand: 8
+    bullet: {
+        type: BasicBulletType
+        bulletSprite: bullet
+        lifetime: 80
+        speed: 9
+        width: 7
+        height: 9
+        splashDamage:250
+        splashDamageRadius:45
+        frontColor: b116db
+        backColor: 752c8a
+        hitEffect:blastExplosion
+    }
+    }
+]

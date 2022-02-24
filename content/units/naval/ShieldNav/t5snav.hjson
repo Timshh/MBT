@@ -1,0 +1,69 @@
+type: naval
+speed: 1.25
+drag: 0.3
+hitSize: 10
+health: 9000
+accel: 1.2
+rotateSpeed: 3.3
+trailLength: 40
+rotateShooting: true
+armor: 8
+weapons: [
+    {
+    name: t5railnav-gun
+    reload: 200
+    x: 0
+    y: -9
+    rotate: true
+    mirror: false
+    inaccuracy: 0
+    shots: 2
+    shake: 4
+    shootY:7
+    shotDelay: 5
+    bullet: {
+        type: BasicBulletType
+        bulletSprite: bullet
+        lifetime: 100
+        speed: 15
+        width: 10
+        height: 12
+        damage: 1000
+        splashDamage:500
+        splashDamageRadius:35
+        frontColor: b116db
+        backColor: 752c8a
+        trailLength: 8
+        trailWidth: 1
+        trailColor: 752c8a
+        hitEffect:blastExplosion
+        trailInterval: 2
+    }
+    },
+    {
+    name: t5railnav-gun2
+    reload: 4
+    x: 0
+    y: 9
+    controllable: false
+    autoTarget: true
+    rotate: true
+    shootcone:30
+    mirror: false
+    inaccuracy: 0.25
+    xRand: 5
+    bullet: {
+        type: BasicBulletType
+        bulletSprite: bullet
+        lifetime: 80
+        speed: 9
+        width: 7
+        height: 9
+        splashDamage:100
+        splashDamageRadius:45
+        frontColor: b116db
+        backColor: 752c8a
+        hitEffect:blastExplosion
+    }
+    }
+]
