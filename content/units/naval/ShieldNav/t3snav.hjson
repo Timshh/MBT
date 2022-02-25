@@ -12,7 +12,6 @@ abilities: [
   {
     type: EnergyFieldAbility
     range: 120
-    damage: 250
-    statusDuration: 50
+    damage: 1000
   }
 ]

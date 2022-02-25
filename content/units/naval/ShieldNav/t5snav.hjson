@@ -39,31 +39,12 @@ weapons: [
         hitEffect:blastExplosion
         trailInterval: 2
     }
-    },
-    {
-    name: t5railnav-gun2
-    reload: 4
-    x: 0
-    y: 9
-    controllable: false
-    autoTarget: true
-    rotate: true
-    shootcone:30
-    mirror: false
-    inaccuracy: 0.25
-    xRand: 5
-    bullet: {
-        type: BasicBulletType
-        bulletSprite: bullet
-        lifetime: 80
-        speed: 9
-        width: 7
-        height: 9
-        splashDamage:100
-        splashDamageRadius:45
-        frontColor: b116db
-        backColor: 752c8a
-        hitEffect:blastExplosion
     }
-    }
+]
+abilities: [
+  {
+    type: EnergyFieldAbility
+    range: 120
+    damage: 1000
+  }
 ]

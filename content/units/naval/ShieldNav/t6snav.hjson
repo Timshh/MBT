@@ -29,31 +29,12 @@ weapons: [
             splashDamageRadius:45
         }
         hitEffect: railHit
-    },
-    {
-    name: t6railnav-gun2
-    reload: 7.5
-    x: 0
-    y: 9
-    controllable: false
-    autoTarget: true
-    rotate: true
-    shootcone:30
-    mirror: false
-    inaccuracy: 0.25
-    xRand: 8
-    bullet: {
-        type: BasicBulletType
-        bulletSprite: bullet
-        lifetime: 80
-        speed: 9
-        width: 7
-        height: 9
-        splashDamage:250
-        splashDamageRadius:45
-        frontColor: b116db
-        backColor: 752c8a
-        hitEffect:blastExplosion
     }
-    }
+]
+abilities: [
+  {
+    type: EnergyFieldAbility
+    range: 120
+    damage: 1000
+  }
 ]
