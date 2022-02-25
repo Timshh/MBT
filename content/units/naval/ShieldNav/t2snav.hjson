@@ -10,7 +10,7 @@ rotateShooting: true
 armor: 2
 weapons: [
     {
-    name: t2railnav-gun
+    name: t2snav-gun
     reload: 20
     mirror: false
     y: -5
