@@ -10,35 +10,31 @@ rotateShooting: true
 armor: 8
 weapons: [
     {
-    name: t5railnav-gun
-    reload: 200
-    x: 0
-    y: -9
-    rotate: true
+    name: t5snav-gun
+    reload: 35
     mirror: false
-    inaccuracy: 0
-    shots: 2
-    shake: 4
-    shootY:7
-    shotDelay: 5
+    y: -5
+    x: 0
+    shootSound: missile
+    xrand: 5
+    shots: 6
+    rotate: true
+    inaccuracy: 6
     bullet: {
-        type: BasicBulletType
-        bulletSprite: bullet
-        lifetime: 100
-        speed: 15
-        width: 10
-        height: 12
-        damage: 1000
-        splashDamage:500
-        splashDamageRadius:35
-        frontColor: b116db
-        backColor: 752c8a
-        trailLength: 8
-        trailWidth: 1
-        trailColor: 752c8a
+        type: MissileBulletType
+        bulletSprite: missile
+        lifetime: 125
+        speed: 4
         hitEffect:blastExplosion
-        trailInterval: 2
-    }
+        splashDamageRadius: 10
+        splashDamage: 34
+        homingPower: 3
+        weaveScale: 7
+        homingRange: 60
+        damage: 350
+        frontColor: f8ad42
+        backColor: f68021
+        }
     }
 ]
 abilities: [

@@ -23,7 +23,7 @@ weapons: [
     bullet: {
         type: MissileBulletType
         bulletSprite: missile
-        lifetime: 80
+        lifetime: 100
         speed: 4
         hitEffect:blastExplosion
         splashDamageRadius: 10
@@ -31,7 +31,7 @@ weapons: [
         homingPower: 3
         weaveScale: 5
         homingRange: 60
-        damage: 10
+        damage: 25
         frontColor: f8ad42
         backColor: f68021
         }
