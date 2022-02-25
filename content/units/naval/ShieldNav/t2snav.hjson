@@ -11,7 +11,7 @@ armor: 2
 weapons: [
     {
     name: t2railnav-gun
-    reload: 5
+    reload: 20
     mirror: false
     y: -5
     top: true
@@ -19,7 +19,6 @@ weapons: [
     xrand: 2
     shots 3
     inaccuracy: 6
-    shake: 2
     bullet: {
         type: MissileBulletType
         bulletSprite: missile
