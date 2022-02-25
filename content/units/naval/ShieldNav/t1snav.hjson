@@ -9,14 +9,12 @@ trailLength: 20
 rotateShooting: true
 armor: 2
 abilities: [
-      }
-      range: 200
-      reload: 1
-      duration: 5
-      },
       {
       type: EnergyFieldAbility
       statusDuration: 300
+      range: 200
+      reload: 1
+      duration: 5
       status: {
       reloadMultiplier: 0.2
       effectChance: 0.3
