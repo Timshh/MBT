@@ -11,8 +11,8 @@ armor: 2
 abilities: [
   {
     type: EnergyFieldAbility
-    radius: 60
+    range: 60
     damage: 40
-    statusDuration: 50
+    statusDuration: 1
   }
 ]
