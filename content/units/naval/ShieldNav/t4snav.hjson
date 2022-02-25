@@ -10,28 +10,30 @@ rotateShooting: true
 armor: 2
 weapons: [
     {
-    name: t4railnav-gun
-    reload: 170
-    x: 0
-    y: -5
-    rotate: true
+    name: t2snav-gun
+    reload: 30
     mirror: false
-    inaccuracy: 0
-    shake: 2
+    y: -5
+    x: 0
+    shootSound: missile
+    xrand: 4
+    shots: 5
+    rotate: true
+    inaccuracy: 6
     bullet: {
-        type: BasicBulletType
-        bulletSprite: bullet
-        lifetime: 100
-        speed: 12
-        width: 5
-        height: 7
-        damage: 2000
-        frontColor: b116db
-        backColor: 752c8a
-        trailLength: 8
-        trailWidth: 1
-        trailColor: 752c8a
-        trailInterval: 2
-    }
+        type: MissileBulletType
+        bulletSprite: missile
+        lifetime: 80
+        speed: 4
+        hitEffect:blastExplosion
+        splashDamageRadius: 10
+        splashDamage: 34
+        homingPower: 3
+        weaveScale: 5
+        homingRange: 60
+        damage: 100
+        frontColor: f8ad42
+        backColor: f68021
+        }
     }
 ]
