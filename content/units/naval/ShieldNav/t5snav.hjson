@@ -44,7 +44,7 @@ weapons: [
 abilities: [
   {
     type: EnergyFieldAbility
-    range: 120
-    damage: 1000
+    range: 175
+    damage: 3000
   }
 ]

@@ -11,20 +11,28 @@ armor: 2
 weapons: [
     {
     name: t2railnav-gun
-    reload: 120
-    x: 0
-    y: -5
-    rotate: true
+    reload: 5
     mirror: false
-    inaccuracy: 1
+    y: -5
+    top: true
+    shootSound: missile
+    xrand: 2
+    shots 3
+    inaccuracy: 6
+    shake: 2
     bullet: {
-        type: BasicBulletType
-        bulletSprite: bullet
+        type: MissileBulletType
+        bulletSprite: missile
         lifetime: 80
-        speed: 5.5
-        damage: 225
-        frontColor: b116db
-        backColor: 752c8a
-    }
-    }
+        speed: 4
+        hitEffect:blastExplosion
+        splashDamageRadius: 10
+        splashDamage: 34
+        homingPower: 3
+        weaveScale: 5
+        homingRange: 60
+        damage: 10
+        frontColor: f8ad42
+        backColor: f68021
+        }
 ]
