@@ -10,8 +10,8 @@ rotateShooting: true
 armor: 2
 abilities: [
       }
-      range: 200,
-      reload: 1,
+      range: 200
+      reload: 1
       duration: 5
       },
       {
@@ -28,6 +28,6 @@ abilities: [
       sizeTo: 3
       strokeFrom: 0
       strokeTo: 3
-      colorFrom: "84F491FF
-      colorTo: "98ffa9
+      colorFrom: 84F491FF
+      colorTo: 98ffa9
       }
