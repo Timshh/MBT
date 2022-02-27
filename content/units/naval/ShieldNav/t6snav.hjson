@@ -2,7 +2,7 @@ type: naval
 speed: 1.2
 drag: 0.4
 hitSize: 25
-health: 25000
+health: 35000
 accel: 2
 rotateSpeed: 3.3
 trailLength: 60
@@ -10,25 +10,31 @@ rotateShooting: true
 armor: 12
 weapons: [
     {
-    name: t6railnav-gun
-    reload: 250
-    x: 0
-    y: -9
-    rotate: true
+    name: t5snav-gun
+    reload: 35
     mirror: false
-    inaccuracy: 0
-    shake: 7
-    shootY:20
-    shootSound: railgun
-        bullet: {
-            type: RailBulletType
-            updateEffect: railTrail
-            length: 1200
-            damage: 4000
-            splashDamage:2500
-            splashDamageRadius:45
+    y: -5
+    x: 0
+    shootSound: missile
+    xrand: 7
+    shots: 7
+    rotate: true
+    inaccuracy: 6
+    bullet: {
+        type: MissileBulletType
+        bulletSprite: missile
+        lifetime: 125
+        speed: 5
+        hitEffect:blastExplosion
+        splashDamageRadius: 25
+        splashDamage: 400
+        homingPower: 3
+        weaveScale: 7
+        homingRange: 60
+        damage: 600
+        frontColor: f8ad42
+        backColor: f68021
         }
-        hitEffect: railHit
     }
 ]
 abilities: [
@@ -36,5 +42,12 @@ abilities: [
     type: EnergyFieldAbility
     range: 220
     damage: 4000
+  },
+  {
+    type: ForceFieldAbility
+    radius: 100
+    regen: 500
+    max: 7500
+    cooldown: 80
   }
 ]

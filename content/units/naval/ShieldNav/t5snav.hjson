@@ -2,7 +2,7 @@ type: naval
 speed: 1.25
 drag: 0.3
 hitSize: 10
-health: 9000
+health: 12000
 accel: 1.2
 rotateSpeed: 3.3
 trailLength: 40
@@ -26,8 +26,8 @@ weapons: [
         lifetime: 125
         speed: 4
         hitEffect:blastExplosion
-        splashDamageRadius: 10
-        splashDamage: 34
+        splashDamageRadius: 20
+        splashDamage: 200
         homingPower: 3
         weaveScale: 7
         homingRange: 60
@@ -42,5 +42,12 @@ abilities: [
     type: EnergyFieldAbility
     range: 175
     damage: 3000
+  },
+  {
+    type: ForceFieldAbility
+    radius: 75
+    regen: 250
+    max: 4000
+    cooldown: 100
   }
 ]
