@@ -48,7 +48,7 @@ abilities: [
     rotateSpeed: 4
     status: electrified
     statusDuration: 100
-    healPercent: 7,5
+    healPercent: 7
   },
   {
     type: ForceFieldAbility
