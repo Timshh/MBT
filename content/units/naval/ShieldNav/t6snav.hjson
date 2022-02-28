@@ -44,8 +44,8 @@ abilities: [
     damage: 2000
     color: 98ffa9ff
     sectors: 6
-    sectorRad: 0.3
-    rotateSpeed: 0
+    sectorRad: 0.15
+    rotateSpeed: 6
     status: electrified
     statusDuration: 50
     healPercent: 10
