@@ -27,11 +27,11 @@ weapons: [
         speed: 4
         hitEffect:blastExplosion
         splashDamageRadius: 20
-        splashDamage: 200
+        splashDamage: 100
         homingPower: 3
         weaveScale: 7
         homingRange: 60
-        damage: 350
+        damage: 175
         frontColor: f8ad42
         backColor: f68021
         }
@@ -41,7 +41,14 @@ abilities: [
   {
     type: EnergyFieldAbility
     range: 175
-    damage: 3000
+    damage: 1500
+    color: 98ffa9ff
+    sectors: 5
+    sectorRad: 0.3
+    rotateSpeed: 4
+    status: electrified
+    statusDuration: 100
+    healPercent: 7,5
   },
   {
     type: ForceFieldAbility

@@ -27,11 +27,11 @@ weapons: [
         speed: 4
         hitEffect:blastExplosion
         splashDamageRadius: 10
-        splashDamage: 34
+        splashDamage: 30
         homingPower: 3
         weaveScale: 5
         homingRange: 60
-        damage: 125
+        damage: 75
         frontColor: f8ad42
         backColor: f68021
         }

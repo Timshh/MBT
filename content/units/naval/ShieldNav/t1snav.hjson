@@ -12,7 +12,7 @@ abilities: [
   {
     type: EnergyFieldAbility
     range: 60
-    damage: 50
+    damage: 25
     color: 98ffa9ff
     sectors: 0
     sectorRad: 0

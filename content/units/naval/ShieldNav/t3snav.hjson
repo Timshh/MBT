@@ -13,5 +13,11 @@ abilities: [
     type: EnergyFieldAbility
     range: 120
     damage: 1000
+    color: 98ffa9ff
+    sectors: 3
+    sectorRad: 0.2
+    rotateSpeed: 2
+    status: electrified
+    statusDuration: 150
   }
 ]
