@@ -11,13 +11,13 @@ armor: 8
 weapons: [
     {
     name: t5snav-gun
-    reload: 35
+    reload: 20
     mirror: false
     y: -5
     x: 0
     shootSound: missile
     xrand: 5
-    shots: 6
+    shots: 3
     rotate: true
     inaccuracy: 6
     bullet: {

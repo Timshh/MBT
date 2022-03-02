@@ -17,7 +17,7 @@ weapons: [
     x: 0
     shootSound: missile
     xrand: 4
-    shots: 5
+    shots: 3
     rotate: true
     inaccuracy: 6
     bullet: {
