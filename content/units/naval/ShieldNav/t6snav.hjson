@@ -10,10 +10,10 @@ rotateShooting: true
 armor: 12
 weapons: [
     {
-    name: t5snav-gun
+    name: t6snav-gun
     reload: 30
     mirror: false
-    y: -5
+    y: -10
     x: 0
     shootSound: missile
     xrand: 7
