@@ -14,6 +14,7 @@ weapons: [
     reload: 30
     mirror: false
     y: -8
+    shotDelay: 1
     x: 0
     shootSound: missile
     xrand: 4
