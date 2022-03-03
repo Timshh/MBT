@@ -13,7 +13,7 @@ weapons: [
     name: t6snav-gun
     reload: 30
     mirror: false
-    y: -10
+    y: -15
     x: 0
     shootSound: missile
     xrand: 7

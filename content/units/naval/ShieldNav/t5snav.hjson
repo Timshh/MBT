@@ -13,7 +13,7 @@ weapons: [
     name: t5snav-gun
     reload: 20
     mirror: false
-    y: -8
+    y: -12
     x: 0
     shootSound: missile
     xrand: 5

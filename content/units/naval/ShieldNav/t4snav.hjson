@@ -13,7 +13,7 @@ weapons: [
     name: t4snav-gun
     reload: 30
     mirror: false
-    y: -5
+    y: -8
     x: 0
     shootSound: missile
     xrand: 4
