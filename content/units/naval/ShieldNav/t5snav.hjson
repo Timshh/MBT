@@ -49,6 +49,7 @@ abilities: [
     status: electrified
     statusDuration: 100
     healPercent: 7
+    effectRadius: 2.5
   },
   {
     type: ForceFieldAbility

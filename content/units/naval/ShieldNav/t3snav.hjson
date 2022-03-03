@@ -18,7 +18,7 @@ abilities: [
     sectorRad: 0.2
     rotateSpeed: 2
     status: electrified
-    effectRadius: 3
+    effectRadius: 2
     statusDuration: 150
   }
 ]
