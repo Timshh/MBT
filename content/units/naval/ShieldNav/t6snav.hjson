@@ -16,7 +16,7 @@ weapons: [
     y: -15
     x: 0
     shootSound: missile
-    xrand: 7
+    xRand: 6
     shots: 6
     shotDelay: 1
     rotate: true

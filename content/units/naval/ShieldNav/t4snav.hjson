@@ -17,7 +17,7 @@ weapons: [
     shotDelay: 1
     x: 0
     shootSound: missile
-    xrand: 4
+    xRand: 2
     shots: 3
     rotate: true
     inaccuracy: 6
