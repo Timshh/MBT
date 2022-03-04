@@ -43,6 +43,7 @@ abilities: [
   {
     type: EnergyFieldAbility
     range: 220
+    color:00dfeb
     damage: 2000
     color: 00dfeb
     sectors: 7
