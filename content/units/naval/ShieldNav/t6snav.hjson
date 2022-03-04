@@ -43,7 +43,7 @@ abilities: [
     type: EnergyFieldAbility
     range: 220
     damage: 2000
-    color: 98ffa9ff
+    color: 00dfeb
     sectors: 7
     sectorRad: 0.1
     rotateSpeed: 10

@@ -13,7 +13,7 @@ abilities: [
     type: EnergyFieldAbility
     range: 60
     damage: 25
-    color: 98ffa9ff
+    color: 00dfeb
     sectors: 0
     sectorRad: 0
     rotateSpeed: 2
