@@ -2,7 +2,7 @@ type: naval
 speed: 1.3
 drag: 0.13
 hitSize: 10
-health: 4500
+health: 5000
 accel: 0.8
 rotateSpeed: 3.3
 trailLength: 30
