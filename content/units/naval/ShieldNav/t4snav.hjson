@@ -33,8 +33,9 @@ weapons: [
         weaveScale: 5
         homingRange: 60
         damage: 75
-        frontColor: f8ad42
-        backColor: f68021
+        frontColor: 40B8F8
+        backColor: 4088F8
+        trailColor: 66ffffff
         }
     }
 ]
